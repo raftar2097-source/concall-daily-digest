@@ -1,4 +1,719 @@
 {
+  "APOLLOTYRE": {
+    "company_name": "Apollo Tyres Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guided 6\u20138% price increases for Q1 (staggered rollout; full effect Q2 onward). Expects mid-to-high-teens raw-material inflation into Q1, necessitating further hikes. Strong demand momentum predicted for April\u2013Q1 despite macro headwinds. CapEx at INR 3,500 crores for FY27 (80% growth). Enschede restructuring benefits targeted H2 FY27. Net debt/EBITDA at 0.4x.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guides 8% sequential raw-material inflation into Q2; expects further 9\u201311% price increases beyond 7\u20139% taken in Q1 (3\u20134% effective due to stagger). Targets high-teens EBITDA in Europe post-restructuring from H2. Growth delivered 15.6% Y-o-Y but margins compressed to 12% against prior Q1's 13.6%, as actual 17% RM inflation exceeded guidance.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "AVALON": {
+    "company_name": "Avalon Technologies Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 (ended June 30) earnings call held August 5, filed August 11, 2026. No forward guidance or financial results reported. Only regulatory filing announcement available; actual earnings call transcript content not present in submitted document.",
+        "verdict": null
+      }
+    ]
+  },
+  "BIOCON": {
+    "company_name": "Biocon Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 guidance: progressive improvement with meaningful H2 acceleration as biosimilar launches scale. Margins in biosimilars to remain mid-20s and expand; generics to improve profitability as newer assets stabilize. Syngene faces FY27 transition challenges but expected recovery in H2. Major capex phase complete; focus now on leverage and returns.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guidance unchanged: expects H2 acceleration as new launches scale. Q1 results met expectations\u2014biosimilars +16% (25% margin), generics margin up 250bps to 7%, interest down 23% YoY. Aflibercept launched this month; Bosaya/Aukelso commercializing. Syngene single-digit degrowth expected for FY27 with margin recovery in H2.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "BRIGHOTEL": {
+    "company_name": "Brigade Hotel Ventures Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guidance: targets mid-teens FY27 revenue growth; expects rest-of-year 'very buoyant' recovery after Q1's INR14cr West Asia cancellations. Launching 45-key Courtyard Chennai Q3 (expecting INR9,000 starting ADR, 80% stabilized occupancy); INR500cr capex for FY27 toward 1,700-key expansion through FY31. Results: Q1 profit +140% to INR17cr (finance costs halved post-IPO), revenue +5%. RevPAR +9% rate-led.",
+        "verdict": null
+      }
+    ]
+  },
+  "BUILDPRO": {
+    "company_name": "Shankara Buildpro Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 targets: 20% revenue growth, 3.3-3.5% EBITDA margin, 1.2 MT steel volume. Non-steel targeting INR 750 crore (25% growth), aiming for 15-20% of business mix. Plan 7-10 fulfillment centers. Long-term EBITDA margin goal 4% in 2-3 years.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue beat guidance at 21% growth with 3.26% EBITDA margin (3.8% normalized). Steel volume growth lagged at 10%, but management confident on 1.2 MT full-year target citing June-July recovery. Non-steel resurging: 15% targeting 25%. Reaffirming FY27 guidance: 20% revenue, 3.5% EBITDA.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "CAMPUS": {
+    "company_name": "Campus Activewear Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Delivered 12.3% revenue growth and 7% ASP improvement in FY26. Targeting 17\u201319% EBITDA margin in FY27 with stated confidence. Guiding mid-double-digit blended growth via high single-digit volumes plus ASP expansion. Sneaker category targeting ~30% growth. Expanding to 80\u2013120 stores; manufacturing capacity doubling by end FY27.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Delivered 12.2% revenue and 11.7% volume growth, meeting blended guidance. EBITDA margin 15.9% below 17\u201319% full-year target; management cited temporary headwinds (plant depreciation, school-shoe mix shift) and reaffirmed confidence. Pricing power demonstrated: 8% MRP increases held with volume resilience. ASP temporarily depressed, 6\u20137% expected from Q2 onward. Sneaker growth on track for 30% annual target.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "COHANCE": {
+    "company_name": "Cohance Lifesciences Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Q1 FY27 guided as lowest-point quarter; recovery expected H2 onwards with growth returning. Destocked molecules expected to restocking (discussions ongoing); two newly commercialized products scheduled for Q2\u2013Q3 FY27 delivery. Phase 3 pipeline at 10. Capex INR 3B planned. Management declined specific FY27 guidance.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 confirmed as weakest quarter (\u201323% YoY), validating May guidance. Restocking order now received for destocked molecule; commercial products on track Q2\u2013Q3. Sapala grew 2.5x. H2 growth expected year-on-year. NJ Bio losses persist (INR 328M). USFDA issued Form 483 on Pashamylaram facility (five observations, none data-integrity related).",
+        "verdict": "met"
+      }
+    ]
+  },
+  "CUMMINSIND": {
+    "company_name": "Cummins India Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "Expected moderate FY27 growth amid geopolitical caution; data center QSK60 dominant for 2 years, QSK78 likely later. Europe, Asia Pacific exports sustained modestly. BESS in inquiry stage; no sales yet. Strong FY26: 18% sales, 24% PBT growth; data center 30\u201335% of PowerGen. Commodity, freight inflation, supply constraints flagged.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Topline beat prior guidance\u201418% growth, highest ever quarterly sales\u2014but PBT flat YoY, down 12% QoQ, compressed by commodity, freight, and labor inflation. Data center jumped to 40% of PowerGen (vs 30\u201335% expected). Strong domestic demand and HHP supply tightening continue. West Asia export headwind persists. Price hikes began Q2; margin recovery hinges on market acceptance.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "DEEDEV": {
+    "company_name": "DEE Development Engineers Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: above Rs. 2,000 Cr order inflow (60% power, 40% oil & gas); EBITDA margin >19%; revenue Rs. 1,500 Cr+; working capital cycle ~200 days. Seamless pipe plant and Anjar fabrication facility ramping up post-commissioning. Non-core pivot to biomass pellets. Core business FY26 EBITDA grew 64% YoY. Strong demand environment.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue Rs. 294.5 Cr (+31.6% YoY), with Rs. 25 Cr deferred to Q2. Maintaining full-year guidance: Rs. 1,500 Cr+ revenue (management terms 'bare minimum', targets upside), >19% EBITDA, >Rs. 2,000 Cr order inflow. Order book Rs. 2,428 Cr; Q1 inflow Rs. 700 Cr tracking to outperform prior guidance. Large BPCL piping order (Rs. 387 Cr) received.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "DEEPAKNTR": {
+    "company_name": "Deepak Nitrite Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guidance cautious amid geopolitical volatility. Management expects Q1 results better than Q4 with improving profitability trends. MIBK/MIBC commissioning targeted for late Q1/early Q2. New product ramp: commercial production from Q3. Polycarbonate (June 2028 target). Near-term driven by integration benefits, cost optimization, and domestic demand resilience.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Record quarterly performance beat May guidance: revenue INR 2,592 crore (+35% YoY, +22% sequentially), EBITDA INR 554 crore (21% margin). Phenolics delivered best-ever quarter; Advanced Intermediates surged 100% sequentially. MIBK/MIBC on track for August commissioning. Strong cash generation from integration benefits and operational excellence.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "ECLERX": {
+    "company_name": "eClerx Services Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 revenue USD 469M (+17.9% YoY). FY27 guidance: top-quartile growth, 24\u201328% EBITDA margin, Q1 sequentially stronger than Q4. First large-scale Agentic AI win secured with Q1 FY27 deployment. Analytics & Automation crossed USD 90M annual run rate. BFSI soft; new geographies gaining traction. Top-10 concentration declined to 59%.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue USD 125.9M (+15.2% YoY, +2.8% sequential\u2014beat Q4 guidance). EBITDA margin 23%, pressured by wage increments but management confident of full-year 24\u201328% range. ACV up 25% YoY at USD 41M. Analytics & Automation crossed USD 100M run rate. Adding 1,600 seats across India centers.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "EMIL": {
+    "company_name": "Electronics Mart India Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Q4 FY26: 15% revenue growth (INR 1,913cr), 20% EBITDA growth (6.7% margin), 12.2% SSSG. For FY27: guides 18-20% revenue growth. Plans ~20 store additions; entering Calcutta Q2/Q3 with 5-7 stores. Priority: inventory optimization, cluster deepening, customer experience.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 outperforms: 39% revenue growth (INR 2,419cr), 118% EBITDA growth (9.9% margin), 34.2% SSSG\u2014well ahead of pro-rata from prior 18-20% full-year guide. Moderates FY27 to 18-20% (seasonality), 7.5-8% EBITDA margin, 15-15.5% gross margin. Mature stores 11.2% EBITDA; non-mature 8.1%.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "FORTIS": {
+    "company_name": "Fortis Healthcare Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: 15%+ hospital revenue growth, 150 bps EBITDA margin expansion targeting 25% by FY28. Diagnostics to achieve double-digit revenue growth with 23\u201324% EBITDA margins. FY26 delivered 31% EBITDA growth despite headwinds from international patient slowdown and CGHS drug pricing caps. Added 800 beds in FY26; plans 1,800 over four years.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Hospital revenue grew 19% (beat 15%+ guidance) but EBITDA margin fell to 21.5% from 22.1%, driven by ESOP charges (~40 cr/qtr) and low-margin acquisitions. Diagnostic revenue 10.2% at low end of double-digit guidance; EBITDA margin held 23.9%. International patient deceleration, oncology impacted by drug price caps. Management reaffirmed 25% FY28 margin target post-ESOP.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "FSL": {
+    "company_name": "Firstsource Solutions Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 constant currency revenue growth 13.6%, EBIT margin 11.7%; crossed $1 billion milestone. Guiding FY27: 10-13% constant currency growth, EBIT margin 12.25%-12.75%, targeting 14-15% band mid-term. Organic growth ~9.8-9.9%. Deal pipeline at record $1B+, 4 consecutive large deal quarters. Strategic logos doubled, 50% converting to $5M+ accounts.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 constant currency growth 11.2% YoY, EBIT margin 12.4%. Reaffirmed full-year guidance: 10-13% growth, 12.25%-12.75% EBIT. Significant headwind: one healthcare BPaaS engagement wound down (1-1.5% FY27 impact) due to client leadership change. Offset by strongest ACV intake in four quarters, 4 large deals, 12 new logos. Strong deal momentum maintains trajectory.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "GALAPREC": {
+    "company_name": "Gala Precision Engineering Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "Guidance for FY27: 20\u201325% revenue growth; EBITDA margins to recover to 17\u201319% (vs 16.51% FY26, forex loss being main headwind). Chennai facility targeting INR 80 crore contribution, with Phase 2 adding 60 crore annually. Wada land acquisition expected to finalize by June end; export mix to remain 35\u201340%. Working capital improvement of ~10% YoY targeted.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue +20% YoY (in-line with 20\u201325% guidance); EBITDA margins 16.51%, below 17\u201319% full-year target but management confident recovery via Chennai leverage and fixed-cost absorption. Order bookings +40% YoY signal strong momentum. First bulk electrolyzer order validates clean-energy diversification. Chennai Phase 1 at 70\u201380% utilization, tracking INR 80-crore target. Wada capex (INR 40\u201345 crore) to start FY28.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "GANECOS": {
+    "company_name": "Ganesha Ecosphere Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 EBITDA guidance: INR 225-250 crores (standalone INR 70-80 crores, subsidiaries rest). 20%+ revenue CAGR targeted through volume growth. rPET capacity to reach ~100,000 tonnes by year-end; pivoting to brownfield expansion over greenfield. Demand remains undersupplied; industry capacity to reach 7-7.5 lakh tonnes in 2 years.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 EBITDA INR 59.8 crores (14.1% margin) beat prior quarter's INR 52.35 crores; PAT rose 25.1% QoQ and 79.4% YoY. Guidance reaffirmed despite 11.2% volume decline attributed to demand normalization. Textile recovery underway; 85% utilization targeted by year-end. Margin expansion offset softness.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "GESHIP": {
+    "company_name": "The Great Eastern Shipping Company Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management declines earnings forecast; specific guidance: 80% of FY27 vessel days locked in; crude tanker order book ~20%, LPG ~27%; 3 rigs repricing this year. Expects rates to remain remunerative; most capacity stays on spot market. Fleet strategy focuses on disciplined capital deployment and asset replacement.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Management again declines earnings guidance. Order book surged to 27% (crude tankers), 35% (LPG); predominantly spot-positioned fleet captures all-time highs: MR tankers near $50k/day, LPG above $100k/day. Results far exceeded May's 'remunerative rate' guidance\u2014delivered most profitable quarter ever; consolidated profit INR1,309 crores; NAV up INR100/share.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "GODREJCP": {
+    "company_name": "Godrej Consumer Products Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guidance: on track delivering full-year, exceeding in select areas. Revenue exceeds significantly; double-digit EBITDA may exceed; volume in-line or above. India margins target 22-26% despite commodity cost spike (LPG, kerosene, LABSA); expect recovery in H2. Launching Godrej Rizz liquid dishwash (select states). Confident of double-digit volume growth within quarters. Africa sustainable mid-to-high-teens through FY27. Household insecticide gained market share after decade. Commodity and weather volatility remain key risks.",
+        "verdict": null
+      }
+    ]
+  },
+  "GRSE": {
+    "company_name": "Garden Reach Shipbuilders & Engineers Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "NGC contract signing expected Q1 FY27, revenue recognition commencing H2 FY28; targeting sustained ~11% EBITDA margins. Order book INR 15.3k crore spanning defense and commercial segments. Expansion plan progressing; current capacity 28 platforms expanding to 32 by end-calendar year.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "NGC revenue recognition commencing H2 FY28; contract signing expected this quarter. P-17 Alpha delivery targeted November; four ASW craft by fiscal-year end. Expansion plan: capacity increase to 43 platforms (from 28). Circa 80k-150k crore order visibility. Beat prior guidance: revenue +39%, PAT +44% vs expected similar trends. Order book INR 13.6k crore reflects strong execution.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "GRWRHITECH": {
+    "company_name": "Garware Hi-Tech Films Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY '27 revenue guided at INR 2,500+ crores with EBITDA margin of 25\u00b12%. TPU line commissioning Q3 FY27; new sun control capex of INR 191 crores starting production June 2027. Garware Home Solutions targeting 50 studios by FY '27 end.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 marks strongest quarter: INR 633 crores revenue (+28% YoY), 30.30% EBITDA margin (+544 bps), INR 133 crores PAT (+60%). Management attributed exceptional margins to structural product mix shifts toward high-value specialty/architectural products and D2C expansion. Reaffirmed FY '27 guidance.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "HAPPYFORGE": {
+    "company_name": "Happy Forgings Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: late-teen volume growth; EBITDA margins broadly in line with FY26's 30.4%. Facing raw material and manufacturing cost inflation; expects 3.5\u20134% price recovery from customers. Rs.950 crores incremental order book executable over 2.5\u20133 years, heavily weighted to industrials and export-oriented PV. Capex Rs.450\u2013500 crores; captive solar plant to boost FY28+ margins.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 delivered 23% volume growth and 39.2% PAT growth, exceeding late-teen guidance. EBITDA margin expanded to 31.3%, up from FY26's 30.4%. Successfully negotiated price hikes with OEMs; ~30% benefit realized in Q1, remainder from Q2. Commissioning new 4,000-ton forging and 7,200-ton machining capacity; industrial and export PV portfolio ramping as planned.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "HEROMOTOCO": {
+    "company_name": "Hero MotoCorp Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY'27 guidance: High single-digit industry growth anticipated; company targets outpace through scooter/EV expansion. EV capacity to triple to ~30K units/month within a month, then double again by year-end. \u20b91,500+ crores capex committed. Medium-term EBITDA margin guidance 14\u201316%. Commodity headwinds from West Asia expected, mitigated via calibrated pricing and cost programs.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Achieved 23% volume, 36% revenue growth in Q1\u2014outpaced 14% industry growth via 8% mix uplift. EV volumes surged 151% (scooters 87%). FY'27 capacity targets on track: EV to 45K units/month by year-end. Despite 300bps gross margin contraction from 4.5% commodity inflation, EBITDA down only 120bps due to cost mitigation. Pursuing 14\u201316% margin range medium-term.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "HNDFDS": {
+    "company_name": "Hindustan Foods Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 PAT guidance INR200\u2013220 crores. Record FY26: PAT INR149 cr (+29% YoY), revenue INR4,264 cr (+17%), EBITDA INR377 cr (+20%). INR150 cr of new projects already signed. Footwear facing geopolitical headwinds on petrochemical costs; other segments executing well.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Reaffirmed FY27 PAT guidance of INR200\u2013220 crores; on track after Q1's highest-ever quarterly PAT of INR42.8 crores (+33% YoY). Massively accelerated project wins: INR340 crores signed in Q1 alone (total INR500+ crores for FY27, vs. INR150 mentioned in May). Footwear headwinds temporary; order book full H2.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "IGPL": {
+    "company_name": "IG Petrochemicals Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "Regulatory notification for Q1 FY27 (June 2026 quarter) filed; actual earnings call transcript content not included in this disclosure. Transcript referenced at company website. No guidance or financial details extractable.",
+        "verdict": null
+      }
+    ]
+  },
+  "IKS": {
+    "company_name": "Inventurus Knowledge Solutions Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "True North vision: grow EBITDA from ~INR 1,000cr (LTM Dec 2025) to INR 3,000cr by FY30 via TruBridge integration and return to early-to-mid 30s margins. Q4 delivered 35% EBITDA on 18.5% YoY revenue growth. No quarterly guidance offered. TruBridge closing expected in Q1.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27: 21% YoY growth (12% constant currency), 35% adjusted EBITDA despite TruBridge close July 10. Beat pro-forma expectations of 26-27% margin compression. Strong wins (Advocate, musculoskeletal leader) validate land-and-expand. Guides early-to-mid 30% margins via technology and synergies within next couple years.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "IMFA": {
+    "company_name": "Indian Metals & Ferro Alloys Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "Guided FY27 production 400k tons (FY28: 475\u2013500k), shifting domestic sales from 10% to 40%. KNR-1 greenfield expected late July switch-on; KNR-2 ramping to 6k tons/month. Tied up 135 MW hybrid renewable energy (70 MW July 2026, 65 MW June 2027). Q4: 68.5k tons, realizations ~INR109k/ton.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 record: 80k tons, ~INR120k/ton realization, highest-ever revenue/profit. FY27 guidance reduced to 380k tons (from 400k) due to transformer replacements and emissions-control work at KNR-2, partially offsetting Q1 beat. KNR-1 first furnace tapping imminent; full 50% volume uplift expected by Q4 FY27.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "JISLDVREQS": {
+    "company_name": "Jain Irrigation Systems Limited",
+    "quarters": [
+      {
+        "quarter": "Feb 2026",
+        "summary": "FY26 targets: 15%+ revenue/EBITDA growth; FY27 more ambitious at 18-20%. Q3 delivered 17.4% revenue growth (1,600 cr), retail sales up 24%. EBITDA margin compression to 10.5% from inventory/seasonality; Hi-Tech segment improved. Management expects Q4 to achieve 18-20% growth.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue fell 2.5% YoY to 1,500cr; adjusted PAT collapsed 90% to 3cr. Monsoon delays and 50% polymer price hikes forced customer deferrals. FY27 guidance: double-digit revenue growth, 14% standalone margins\u2014below Feb's 18-20% projection. Management attributes weakness to temporary factors; expects strong 2H recovery.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "JISLJALEQS": {
+    "company_name": "Jain Irrigation Systems Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 expected stronger than FY26 across revenue, EBITDA, cash flow, and balance sheet. Hi-Tech segment to maintain growth momentum post-Q1 weakness (monsoon delays, polymer price shocks). Debt repayment: Rs. 680 crores (Rs. 230 crores Sept, remainder March). Legacy receivables recovery targeted. Outlook cautious near-term; H2 recovery anticipated as demand normalizes.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 revenue Rs. 1,500 crores (\u22122.5% YoY); Hi-Tech fell 22% versus prior growth expectations amid monsoon delays, polymer price shocks, customer postponements. Adjusted PAT Rs. 3 crores (vs Rs. 30 crores prior year). Guidance reiterated: double-digit FY27 growth, 12\u201313% margins; recovery signs emerging July onwards.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "MARICO": {
+    "company_name": "Marico Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: cross INR15,000+ crores with double-digit revenue growth; high-teens EBITDA growth, aspiring for 20%. India high single-digit volume growth; international mid-teens constant currency growth. Copra prices expected 35% below peak, supporting gross margin expansion. Digital-first portfolio scaling with double-digit EBITDA margin target by FY30. Premium Personal Care and Foods diversification strengthening, contributing 23% of portfolio.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 significantly beat prior guidance: 23% revenue growth vs. high-teens implied requirement; 25% EBITDA growth vs. high-teens target; 11% India volume vs. guided high single-digit. Parachute delivered 10% volume vs. expected modest growth. Management reaffirms full-year targets: INR15,000+ crores revenue, high-teens EBITDA (aspiring 20%) with greater confidence. Foods 43% growth; premium/digital portfolio scaling.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "NAVINFLUOR": {
+    "company_name": "Navin Fluorine International Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "INR 90 crores capex for advanced materials adoption (complete Q2 FY28); HFC capacity ramping Q3 FY27; CDMO Phase 2 expansion (INR 125 crores, operational Q4 FY27). Management targets 32\u201333% normalized EBITDA margins over 1\u20132 years. Q1 showed strong execution: +44% revenue, +73% EBITDA YoY. Chemours project targeted Q2 FY27 completion.",
+        "verdict": null
+      }
+    ]
+  },
+  "NCC": {
+    "company_name": "NCC Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "No guidance provided due to uncertain environment; management deferred until post-Q1. Q4 revenues INR 6,251 crores (consolidated), 8.83% EBITDA. Historic order book INR 83,004 crores (4x book-to-bill) provided multi-year visibility. Working capital at 97 days; unbilled revenue INR 6,675 crores. Debt improved with INR 729 crore reduction in Q4.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guidance finally provided after May's deferral: FY27 targets 8\u201310% revenue growth, 8.5\u20139% EBITDA margin, INR 22\u201325k crore order inflow. Q1 FY27 beat guidance on both metrics: 12% growth, 9.38% margin. Order book INR 81,214 crores. JJM collections accelerated (INR 610 crores Q1, INR 413 crores July). Smart meter projects 45% installed, completion targeted March 2027.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "PAISALO": {
+    "company_name": "Paisalo Digital Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Targets 3-year doubling of AUM, income, profitability. Maintains NIM guidance at 6.5% level (achieved 6.83%). Co-lending with SBI expected live Q1 FY27. Asset quality pristine: GNPA 0.76%, collection efficiency 98.5%. Distribution expanded to 5,299 touchpoints across 22 states.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Reaffirms 3-year doubling target; AUM growth accelerated to 28% YoY, substantially exceeding prior guidance trajectory. NIM maintained at 6.6% vs 6.5% target. Asset quality strengthened: GNPA 0.70%, collection efficiency 97.5%. Exceptional 128% YoY disbursement growth. Launched NCD program (Rs. 300 Crore).",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "POCL": {
+    "company_name": "Pondy Oxides & Chemicals Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 guidance: lead 125,000\u2013130,000 tons at INR 17,000\u201319,000 EBITDA/ton (sustainable); copper 12,000 tons at INR 35,000\u201340,000/ton, 18,000-ton cathode by December at INR 60,000\u201370,000/ton. FY26 delivered record volumes and 7.4% EBITDA margins. Capex INR 180\u2013200 crores for Phase 1 cathode plant funded internally.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 revenue INR 931 crores (56% YoY). Lead EBITDA INR 21,595/ton (above guided range) but from unsustainable 85% value-added mix; volumes impacted by Middle East shipping disruptions. Copper beat guidance: INR 48,488/ton, revised upward to above INR 40,000/ton. Cathode commissioning Dec 2026, blended margin INR 60,000\u201365,000/ton. Full-year guidance remains intact.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "POLICYBZR": {
+    "company_name": "PB Fintech Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management guided 30% insurance premium growth target (historically beaten), expected \"quite strong year\" from Paisabazaar in FY27 after Q4 EBITDA-positive inflection. Strategic focus: customer acquisition on lifetime-value basis, claims excellence, market-share gains. Emphasized quality over near-term margin expansion.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Delivered 41% insurance premium growth beating 30% target. PAT grew 92% with margin expanding to 9% (from 6% prior quarter); 12-month run rate \u20b9750 Cr. Paisabazaar broke even operationally. Renewals accelerating at 55%, fueling margin expansion ahead. Management reaffirms above-market growth priority.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "PRINCEPIPE": {
+    "company_name": "Prince Pipes and Fittings Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY'27 guidance: 12\u201315% volume growth, 11\u201313% EBITDA margins. Q4 delivered 23% volume growth and 13% EBITDA margins, primarily from restocking and product mix shift. Completed Bhuj facility for Bathware segment; launched DECILO low-noise PP pipes for premium positioning. Working capital improved sharply (45 days vs 98 days prior year). Capex plan INR 200\u2013210 crores.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Maintaining FY'27 guidance: 12\u201315% volume, 11\u201313% EBITDA margins. Q1 volume fell 7%\u2014April destocking temporary; May\u2013July recovery showed momentum return. EBITDA 13% (top end) on product mix and realizations despite volume decline. July volumes not quantified but described as 'good growth' after prior volatility. Bathware loss INR 5 crores, targets breakeven Q3 at INR 25\u201330 crores quarterly run-rate.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "RATEGAIN": {
+    "company_name": "Rategain Travel Technologies Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "Earnings call held August 6, 2026 for Q1 (ended June 30). Transcript content not available in provided filing. Forward guidance and detailed results unavailable for summary.",
+        "verdict": null
+      }
+    ]
+  },
+  "RITES": {
+    "company_name": "RITES Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Targeting substantial FY27 growth. Export order book at INR 1,700+ crore (all-time high); Bangladesh first rake shipping within 2 months, Mozambique deliveries targeted for FY27-end. Maintaining ~1 order/day inflow pace, targeting INR 10,000 crore order book. Margin red lines: 20% EBITDA, 15% PAT despite 70%+ competitive orders. FY26 export revenue INR 300 crore.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guidance slipped: Bangladesh first rake delayed to August (1-month slip), completion pushed to FY28; Mozambique deliveries uncertain, clarity by Q2-end. Export revenue guidance softened to 'at least INR 300 plus' vs prior 'much higher.' Order book INR 9,450 crore barely grew (INR 34 crore) despite INR 670 crore new orders. Q1 revenue 9-10% YoY; margins held at 22% EBITDA, 17% PAT.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "RPPL": {
+    "company_name": "Rajshree Polypack Limited",
+    "quarters": [
+      {
+        "quarter": "Feb 2026",
+        "summary": "Plastic business FY27 guidance: \u20b9360-370 crores with 15-15.5% EBITDA margins. Olive JV FY27 target: \u20b9120-130 crores with 16-16.5% margins, approaching PBT breakeven. No major capex planned. Debt \u20b995-100 crores. Renewable energy project expected to generate ~\u20b91.5 crores annual savings.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "FY27 plastic guidance upgraded to \u20b9420-430 crores; Olive JV guidance cut to ~\u20b990 crores from earlier \u20b9120-130. Q1 beat: \u20b9102.91 crores revenue (+24.7%), 16.05% EBITDA margins. Core packaging accelerating; JV underperforming. Renewable energy commissioning Oct 2026 (\u20b91.5-1.75 crores savings). Debt reduction on track.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "RPTECH": {
+    "company_name": "Rashi Peripherals Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 revenue up 15% to INR15,827Cr; Q4 showed 51% growth. PAT INR282Cr (+35% FY). Management guided 20% CAGR going forward, expecting continued PC refresh and AI-device tailwinds, but flagged potential 5-10% CY26 unit dip as component costs normalize. Semiconductor business grew 131% (small base). Disciplined balance sheet (58-day working capital, ROCE 16%+) positioned to weather normalization.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue jumped 61.9% to INR5,100Cr; PAT INR105Cr (+69.5%). Beat prior quarter's conservative 20% guidance decisively. Growth split: 30-35% pricing, 20-25% volume (vs. expected unit dip), ~10% market share gains. Executed on all three strategic pillars: core PC/enterprise fired, VDA acquisition (system integrator), Restar JV launched (semiconductors targeting $100M in 3 years). ROCE/ROE at all-time highs (19.5-19.8%). Q2 expected similar.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "RSWM": {
+    "company_name": "RSWM Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 turnaround achieved: PAT \u20b952 Cr vs loss \u20b941 Cr prior year; EBITDA margin 7.1%. Q1 FY27 guidance: \"slightly better or equivalent\" to Q4, targeting utilization gains (85-90% from 80%+) and cost control. Renewable energy at 70%; \u20b992 Cr knitting capex to add EBITDA Q3/Q4.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 beat prior guidance: EBITDA \u20b994 Cr up 10.6% QoQ (vs \"slightly better\" promised), margin 8.0%. Capacity utilization mid-90s for yarn, 90% denim, mid-80s knit. Domestic demand resilient; exports softer due to geopolitics. Renewable power 60%. Denim garment JV and B2B PET (\u20b9500 Cr, 15% EBITDA) advancing.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "RSYSTEMS": {
+    "company_name": "R Systems International Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "No explicit forward guidance; management maintains target margins of 18-19% adjusted EBITDA. Q1 delivered 29.9% YoY revenue growth, 50.6% EBITDA growth to 20.1%. Strong AI momentum through EXIQO studio launch and $82.5M TTM ACV, supported by FX tailwinds and strategic AI investments.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "No forward guidance provided; reiterated 18-19% sustained EBITDA target but delivered 20.1% (beat on margins). Q2 revenue growth slowed to 1.2% QoQ in constant currency; ACV essentially flat at $82.9M. Strong EBITDA expansion overshadowed by muted organic growth momentum.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "SAREGAMA": {
+    "company_name": "Saregama India Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Music vertical maintained medium-term 20-23% revenue CAGR guidance with 60-65% EBITDA margin target. FY27 content budget INR 300-350 crores; cumulative FY25-27 investment reaches INR 1 billion with linear growth thereafter. Bhansali Productions investment completed for secured marquee Hindi film access. Pocket Aces achieved breakeven; UN40 music festival launched.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 music revenue grew 39% YoY (management attributes to low base); maintained full-year 20-23% guidance and 60-65% EBITDA margin targets. Content spend on track. Expanded artiste roster to 309 with 440M followers; Carvaan Live launched with 23 shows; US diaspora tours underway. AI teams initiated for content creation and process optimization. Video declined 52% by design.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "SEJALLTD": {
+    "company_name": "Sejal Glass Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: 25% minimum to 40% upside revenue growth; EBITDA margin target 17.5\u201318%; PAT margin to reach 9\u201310% from Q3\u2013Q4. New products (fire-rated, railways, digital-printed) launching Q3, expected 5\u20137% revenue this year, 15\u201320% next. Rebalancing revenue mix toward 50\u201350 India\u2013UAE split.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27: INR 118cr revenue (53% YoY), India beat 20% guidance at 67% growth; order book jumped (UAE AED 50M\u219272M, India INR 50+cr). Maintained FY27 guidance: 25% minimum, 40% upside. Margins compressed to ~15% EBITDA, ~6% PAT due to one-time labor costs; expects recovery to 9\u201310% PAT by Q3\u2013Q4.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "SJS": {
+    "company_name": "S.J.S. Enterprises Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guidance for FY27: outperform industry 1.5x-2x; achieve 14%-15% export contribution by FY28; maintain 27%-28% margins. Highest-ever revenue INR 2,601 mn, +29.7% YoY, outperforming industry 18.9% by 2.2x. EBITDA margin expanded to 30.3% (+424 bps). Cover glass supplies expected early FY28.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Guidance reiterated: outperform industry 1.5x-2x in FY27; export target 14%-15% by FY28; maintain 27%-28% margins; cover glass Q2 FY28. Revenue INR 2,610 mn (+24.5% YoY), slower than prior Q4 (+29.7%). Automotive outperformance at 1.5x (lower end of guidance); exports +83.2% YoY. Decoplast commissioned, targeting INR 200-250 cr incremental revenue over 3 years.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "SONATSOFTW": {
+    "company_name": "Sonata Software Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guided to maintain EBITDA at 20% level; expect cautious medium-term improvement. AI pipeline $280M, headcount stable at 6,283. Domestic business faced headwinds from large client going direct. No specific targets\u2014management cited elongated deal cycles and macro uncertainty.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "AI pipeline jumped 21% to $340M, order wins up 27% QoQ\u2014outpacing May guidance. However, EBITDA fell to 15.4% from 20.2% due to one-time compensation reversal, AI investments, deal ramp delays, and forex headwinds (Rs.35.4Cr impact). Utilization dipped to 88.5%; recovery expected Q2. Partial miss on margin commitment.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "STOVEKRAFT": {
+    "company_name": "Stove Kraft Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guided for 15%+ FY27 revenue growth. EBITDA margins to stabilize at 11%; gross margin expansion targeting 42% in 2-3 years. IKEA ramping to INR40-50 crores annually; induction cooktop capacity doubling to 4-5M units. Exports approaching 12-15% of revenue. Capex cycle completing at INR40 crores. Retail expansion targeting 500 stores by 2027. Working capital to remain below 30 days.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 beat FY27 guidance: 41.3% revenue growth vs. 15% guided; 11.2% EBITDA margin vs. 11% target. Induction cooktops surged 315.9%, now 27% of revenue with 2x annual growth expected. IKEA billing starts Q2. Management guiding 15%+ full-year growth with Q2-Q3 strengthening. Retail store productivity at INR4.3 lakhs/month. General trade surging 56.2%.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "SUDEEPPHRM": {
+    "company_name": "Sudeep Pharma Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management guided for FY27 pharma food nutrition to grow faster than FY26's 10%, specialty ingredients to sustain historical momentum. Greenfield facility customer qualification ongoing (6-12 months expected); battery materials Phase 1 (25,000 MT/year) targeted for April 2027 with 6 customers commercially validated, 700 MT initial orders received.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 delivered 27% revenue growth; pharma food nutrition surged 31% YoY, beating guidance. Absorbis bisglycinates Q1 sales surpassed entire FY26. Specialty grew 19% but constrained by temporary LPG shortage. Greenfield facility cleared for food/nutra, FDA approval expected Q3. Battery materials 8 customers qualified, Phase 1 commissioning on track April 2027.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "SUMEETINDS": {
+    "company_name": "Sumeet Industries Limited",
+    "quarters": [
+      {
+        "quarter": "Feb 2026",
+        "summary": "Rights issue (~INR200cr) completion targeted within 3 months. Planning 30-40% capacity expansion and 25% power cost reduction via renewable energy. Targeting net margin improvement to 5% from current 3.5%. No specific FY'26 revenue/EBITDA guidance; focus on strategic initiatives and value-added yarn diversification.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "FY'27 guidance: >30% revenue growth, ~6% EBITDA margin, 3.5-4% PAT. Rights issue completed (INR199.75cr); 30K TPA capacity commissioned. Narkoda CP plant (140K TPA) delayed to FY28 Q2. Solar power Q4 with INR25cr savings. Q1 weak (3.24% EBITDA) from crude/freight volatility; management expects recovery.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "SUTLEJTEX": {
+    "company_name": "Sutlej Textiles and Industries Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 expected to be inflection year from margin recovery to profitable growth and deleveraging. Profitability to return after 2-year losses; EBITDA to expand meaningfully. Home textiles to grow faster, targeting doubling in 2 years. Value-added yarn portfolio shift toward 30-35% target. Technical textiles FY28 contributors. All businesses should turn positive; capex self-funded.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 beat guidance: INR2.7cr net profit returned immediately, 6.7% EBITDA margin (vs Q4's 5.3%), 17% YoY revenue growth. All six manufacturing units profitable first time. Broad-based recovery delivered. Value-added yarn at 10-15%, on track. Home textiles grew 22%. Guides to maintain/better Q1 sequentially. Margin expansion and profitability came faster and stronger than indicated.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "SYMPHONY": {
+    "company_name": "Symphony Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "Management declined specific forward guidance, citing ongoing geopolitical uncertainty and elevated commodity costs. Expects near-term margin pressure despite 7-10% pricing actions in non-household coolers. Mexico and USA guided to improve with normalized summer conditions; China expected to sustain momentum. Q1 revenue grew 8% with margin expansion; consolidated EBITDA margin reached 12.6%, driven by domestic strength and subsidiary performance.",
+        "verdict": null
+      }
+    ]
+  },
   "TITAN": {
     "company_name": "Titan Company Limited",
     "quarters": [
@@ -9,6 +724,51 @@
       {
         "quarter": "Aug 2026",
         "summary": "BEAT: Delivered 30%+ growth vs Jun's cautious outlook; normalized margins 10.9% (vs 11.3% adj. basis) held despite gold volatility and Adhik Maas disruption in May. Customs duty gain (6%\u219215%) realized \u20b9407 cr this quarter, more H2. Reaffirmed 11% margin center, double-digit growth, FY30 targets intact."
+      }
+    ]
+  },
+  "UFBL": {
+    "company_name": "United Foodbrands Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Q4 delivered 14.4% SSSG and marked structural inflection across all segments. Management guided high single-digit to early double-digit SSSG for FY27 (internal aim: double-digit). Expected 9%-10% pre-Ind AS EBITDA margin in FY27. Committed to 40 new restaurants reaching 300-unit network. Mature ROM expected to move to 17%-18%. Multi-engine portfolio validation was standout positive.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 delivered 28.7% SSSG, far exceeding May guidance of high single-digit to early double-digit growth\u2014a clear beat. Pre-Ind AS EBITDA margin 8.1%, mature portfolio ROM 16.2% ahead of expectations. Management flagged SSSG will moderate due to tighter comparatives; focused on volume-led growth, not pricing. Committed to 300 restaurants by FY27-end with 15 under construction. All three business engines accelerating.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "VAIBHAVGBL": {
+    "company_name": "Vaibhav Global Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Q4 FY26 closed with 10% reported revenue growth; EBITDA margin reached 10.3%. In-house brands crossed 50% of B2C sales a year ahead of plan. Digital 44% of revenue, lab-grown diamonds 11%. Germany achieved EBITDA breakeven. FY27 guidance: 9\u201311% revenue growth with 50\u2013100 bps margin expansion. FY30 target: INR5,000\u20135,500 crores.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Reaffirmed FY27 guidance (9\u201311% growth, 50\u2013100 bps margin expansion). Q1 delivered 12.7% reported growth but flat in constant currency; EBITDA margin 11%, PAT +50% YoY. In-house brands 57%, digital 45%, lab-grown 13%. Completed Shopify migration. Tariff refunds offset weak organic growth; long-term FY30 targets sustained.",
+        "verdict": "met"
+      }
+    ]
+  },
+  "WELENT": {
+    "company_name": "Welspun Enterprises Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 revenue INR3,615 crores matched guidance; EBITDA margins 23% exceeded 18\u201320% range. Order book INR20k crores. Guiding FY27 revenue growth 15\u201320%, EBITDA 18%+. INR8\u201310k crores inflow expected H1 FY27. WMEL targeting 25% CAGR over 3 years.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 revenue INR774 crores faced supply chain disruption and Mumbai construction stoppage. EBITDA 22.9% solid but order timing pushed to H2. FY27 growth narrowed to ~15% from 15\u201320% prior. Aunta-Simaria INR1k crore divestment signed. WMEL growth tempered to 15\u201320%.",
+        "verdict": "partial"
       }
     ]
   },
