@@ -1,0 +1,28 @@
+{
+  "TITAN": {
+    "company_name": "Titan Company Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "Guided 15-20% jewellery growth (3-5 year medium term), 11-11.5% margin band, CaratLane toward double-digit EBIT. Deferred FY27 specifics citing gold volatility; Investor Day (June 1st week) to clarify. Damas improving next 2-3 quarters. beYon scaling to 10-12 stores. Positive on formalization tailwinds."
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "BEAT: Delivered 30%+ growth vs Jun's cautious outlook; normalized margins 10.9% (vs 11.3% adj. basis) held despite gold volatility and Adhik Maas disruption in May. Customs duty gain (6%\u219215%) realized \u20b9407 cr this quarter, more H2. Reaffirmed 11% margin center, double-digit growth, FY30 targets intact."
+      }
+    ]
+  },
+  "WONDERLA": {
+    "company_name": "Wonderla Holidays Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guidance vague due to market uncertainty; hopeful to announce 1 park deal in FY27. Sustaining capex only (INR35\u201340 cr), no large expansion. EBITDA margins settling ~40% as launch costs abate. Non-ticket revenue targeting 50-50 split within 4-5 years. Chennai ramping well; full-year contribution expected to support FY27 growth."
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "BEAT soft guidance: 41% revenue growth, 39% EBITDA growth; Chennai outperforming at 48% margins. Confirmed new park deal announcement by year-end (March 2027). Expansion capex ~10% topline, maintenance ~6-7%. Planning 3-4 parks in next 4 years. Cautious on footfall volatility; elections, geopolitical tensions, inflation cited as external headwinds."
+      }
+    ]
+  }
+}

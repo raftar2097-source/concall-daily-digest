@@ -1,20 +1,22 @@
 ---
 name: daily-digest
-description: "Run the full daily concall pipeline for this repo: find every NSE-listed company that filed an earnings-call transcript today, pull each company's last 3-4 quarters of transcripts for context, write a per-company digest emphasizing forward guidance and whether management's past guidance held up, then commit and push. Use this whenever asked to run/update the daily concall digest, or on the scheduled daily run."
+description: "Run the full daily concall pipeline for this repo: find every NSE-listed company that filed an earnings-call transcript today, compare each against its previous quarter, and update a persistent rolling 4-quarter table weighted toward forward guidance and whether management's past guidance held up. Then commit and push. Use this whenever asked to run/update the daily concall digest, or on the scheduled daily run."
 ---
 
 # Daily concall digest
 
-Turns "which NSE companies had a concall today" into a set of per-company
-Markdown digests, weighted toward forward guidance and whether management's
-past guidance has actually held up — then commits everything to this repo.
+Turns "which NSE companies had a concall today" into updates to one
+persistent table (`digests/TABLE.md`) — one row per company, up to 4
+quarter-columns, weighted toward forward guidance and whether management's
+guidance has actually held up. Built for daily, indefinite, low-cost
+operation: `haiku` for the per-company writes, and only 2 transcripts ever
+read per company per run (never re-fetches quarters already logged).
 
 ## 0. Setup check
 
-Run from the repo root. Confirm `pdftotext` is on PATH (`brew install
-poppler` / `apt install poppler-utils` if not) and `curl` is available
-(required — see script docstring for why plain Python HTTP clients don't
-work against nseindia.com).
+Run from the repo root. Confirm `pdftotext` and `curl` are on PATH (see
+`scripts/fetch_todays_transcripts.py` docstring for why curl specifically
+is required against nseindia.com).
 
 ## 1. Find today's transcripts
 
@@ -22,95 +24,90 @@ work against nseindia.com).
 python3 scripts/fetch_todays_transcripts.py -o tmp/nse_$(date +%Y%m%d)
 ```
 
-This hits NSE's public corporate-announcements feed, filters to filings
-tagged as concall updates that also mention "transcript" (excludes mere
-schedule-of-meet notices), downloads each PDF, and converts to text. Read
-the printed `manifest.json` — don't guess file paths.
+Read the printed `manifest.json`. **If `manifest["companies"]` is empty**
+(weekend, holiday, or just early in the day before the evening filing
+rush), that's a valid outcome — note it in the commit message and stop,
+don't fabricate content.
 
-**If `manifest["companies"]` is empty** (weekend, market holiday, or just a
-quiet day before the evening filing rush), that's a valid outcome, not an
-error. Write `digests/<date>/SUMMARY.md` with a single line noting zero
-filings, commit, and stop — don't fabricate content to look busy.
+## 2. For each company, decide what "previous" means
 
-## 2. Pull each company's history
+Read `digests/state.json` (may not exist yet — treat as `{}` if so). For
+each company in today's manifest, derive `current`: quarter label =
+today's date as `"%b %Y"` (e.g. "Aug 2026"), transcript = the `.txt` path
+from step 1's manifest. Then, **per company**:
 
-For each company in the manifest, fetch its last 4 quarters from screener.in:
+- **Already in `state.json` with a most-recent quarter label different
+  from `current`'s label**: that stored entry's `summary` text *is* your
+  "previous" — pass it to the writer agent as context text, **do not**
+  fetch anything from screener.in for this company. (This is the case for
+  almost every company after the pipeline has been running a while — it's
+  the whole point of keeping state.)
+- **Not in `state.json` yet (first time seen)**: fetch from screener.in —
+  ```bash
+  python3 scripts/fetch_historical_transcripts.py "<company_name>" -n 2 -o tmp/hist/<SYMBOL>
+  ```
+  Drop any returned quarter whose label matches `current`'s (screener may
+  have already indexed today's filing — compare loosely, e.g. same month).
+  If one remains, that's "previous" as a **file to read**. If none remain
+  (genuinely no prior transcript, e.g. recently listed), there is no
+  previous — the company gets only 1 cell this run.
+  - Ambiguous name match (exit code 2): retry with the best `--slug` from
+    stderr; if still unclear, treat as "no previous available" rather than
+    guessing.
 
-```bash
-python3 scripts/fetch_historical_transcripts.py "<company_name>" -n 4 -o tmp/hist/<SYMBOL>
-```
-
-- Use the `company_name` field from the NSE manifest (screener's search
-  usually resolves the exact legal name to the right slug automatically).
-- Exit code 2 means an ambiguous match — candidates are printed to stderr.
-  Try re-running with the most obviously-correct `--slug`. If it's still
-  unclear, skip historical context for that company and note in its digest
-  that only today's transcript was available.
-- **De-duplicate against today's filing**: screener sometimes already lists
-  the same quarter you just pulled from NSE (if it's had time to index it).
-  Compare the newest entry in screener's manifest to today's NSE filing —
-  if they're the same reporting quarter, drop that screener entry and use
-  the remaining ones as the 3 prior quarters. You now have up to 4 total
-  files per company: today's (from NSE) + up to 3 prior (from screener),
-  oldest to newest.
-
-## 3. Write each company's digest, in parallel batches
+## 3. Write each company's cell(s), in parallel batches
 
 For each company, spawn one `Agent` (subagent_type: **concall-digest-writer**,
-a project agent defined in `.claude/agents/concall-digest-writer.md`, tools
-Read+Write, model sonnet). Give it: company name/symbol, the ordered list of
-transcript `.txt` paths (oldest first, flag which one is today's), and the
-destination path `digests/<date>/<SYMBOL>.md`.
+project agent in `.claude/agents/concall-digest-writer.md`, haiku). Give it:
+company name/symbol, `current`'s transcript path + label, `previous` as
+determined above (a file path to read, or a summary string to use as
+context, or absent), and destination `digests/cells/<SYMBOL>.json`.
 
-Batch this **~8 companies at a time**, all in one message per batch (parallel
-independent tool calls), rather than one-by-one or all-at-once — on a heavy
-day (50+ filings is normal) spawning everything in a single burst is wasteful
-and unnecessary serialization is slow. Move to the next batch once a batch's
-calls return.
+Batch **~10-15 companies per message** (parallel independent Agent calls) —
+haiku is cheap and fast enough that this batch size is fine; move to the
+next batch once one returns.
 
-Why a dedicated writer agent instead of the `transcript-reader` pattern used
-for single-company requests: that pattern deliberately keeps synthesis with
-the orchestrator because it only ever handles one company's worth of
-context at a time. Here there can be 50+ companies a day, so each company's
-synthesis is fully delegated to its own agent instead — the guidance-vs-actual
-judgment call is exactly the "catch the subtle tell" work that benefits from
-sonnet over haiku (per `concall-digest-writer`'s model choice).
-
-## 4. Build the day's index and commit
-
-Write `digests/<date>/SUMMARY.md`: one line per company (symbol, company
-name, one-line verdict pulled from its digest file), grouped by verdict
-sentiment if that's easy to eyeball (credible/improving guidance vs.
-walked-back/skeptical) — this is the file to skim first.
-
-Then:
+## 4. Merge into the table and commit
 
 ```bash
-git add digests/
-git commit -m "Concall digest for <date>: N companies"
+python3 scripts/build_table.py
+```
+
+This is a plain deterministic script (not an LLM step, deliberately — see
+its docstring) that merges every `digests/cells/*.json` into
+`digests/state.json` (rolling window, most recent 4 quarters per company)
+and re-renders `digests/TABLE.md` from it. Then:
+
+```bash
+git add digests/state.json digests/TABLE.md
+git commit -m "Concall digest for <date>: N companies (M new, K first-seen)"
 git push
 ```
 
-Don't commit `tmp/` (already gitignored) — raw PDFs/text are working files,
-not the deliverable.
+Only `state.json` and `TABLE.md` are committed — `digests/cells/` is
+scratch (gitignored, and `build_table.py` deletes processed files anyway).
 
 ## Known constraints
 
 - **NSE-listed only, current implementation.** BSE-only small-caps aren't
-  covered; add a parallel BSE fetch script if that gap matters later (BSE's
-  announcement API exists but wasn't wired up in v1).
-- **Same-day transcript uploads only.** Some companies hold the concall
-  today but don't upload the transcript for a few days (SEBI LODR Reg 46
-  allows up to 5 working days) — those show up in a *later* day's run, not
-  today's. This means "today's digest" is really "transcripts filed today,"
-  not strictly "concalls held today." Don't conflate the two when
-  presenting results.
-- **NSE's API needs curl, not Python's HTTP stack** — see
-  `scripts/fetch_todays_transcripts.py` docstring. If NSE starts blocking
-  curl too, that's the first thing to re-diagnose (TLS fingerprinting, not
-  a header problem).
-- **screener.in scraping is regex-based** (vendored from the
-  `transcript-summarizer` plugin) — if a site redesign breaks
-  `parse_concalls()` in `scripts/fetch_historical_transcripts.py`, re-fetch
-  a sample page and check for drift there before assuming a company just
-  has no history.
+  covered (BSE has an equivalent announcements API; not wired up in v1).
+- **Same-day transcript uploads only** — SEBI LODR Reg 46 allows up to 5
+  working days, so "today's digest" really means "transcripts filed
+  today," not strictly "concalls held today."
+- **Only 2 quarters are ever read per company per run**, by design (cost).
+  The 4-quarter table fills in naturally over ~1 year of real runs as each
+  company reports quarter after quarter — it is not backfilled on day one.
+  A company will show blank cells on the left of its row until it's been
+  through enough cycles.
+- **`haiku` reads transcripts fairly literally** — it's the deliberate
+  cost/quality tradeoff here (vs. the single-company `sonnet`-based
+  `transcript-summarizer` plugin this pipeline's fetch scripts were
+  vendored from). If a specific company's cells consistently read as
+  generic positive paraphrase rather than catching real guidance
+  shifts, that's a signal to special-case that company to `sonnet`, not a
+  reason to change the default.
+- **NSE's API needs curl, not Python's HTTP stack** (TLS fingerprinting,
+  not a header problem — see the fetch script's docstring).
+- **screener.in scraping is regex-based** — if a normally-covered company
+  shows no history, check for site-structure drift in `parse_concalls()`
+  before assuming the company itself lacks transcripts.

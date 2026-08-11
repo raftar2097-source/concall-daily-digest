@@ -9,40 +9,51 @@ a new data source, a different dedup strategy, a change to what
 ## What this is
 
 A personal, automated daily digest of Indian (NSE-listed) earnings-call
-transcripts. Every trading day: find which companies filed a concall
-transcript today, pull each company's last 3-4 quarters for context, and
-write a per-company Markdown digest weighted toward **forward guidance**
-and **whether management's past guidance has actually held up** — not just
-"what were the numbers." Runs via the `daily-digest` skill
-(`.claude/skills/daily-digest/SKILL.md`), which is the source of truth for
-the step-by-step pipeline; this file is architecture context, not the
-procedure itself.
+transcripts, rendered as **one persistent table**
+(`digests/TABLE.md`) — one row per company, up to 4 quarter-columns —
+weighted toward **forward guidance** and **whether management's past
+guidance has actually held up**, not just "what were the numbers." Runs via
+the `daily-digest` skill (`.claude/skills/daily-digest/SKILL.md`), which is
+the source of truth for the step-by-step pipeline; this file is
+architecture context, not the procedure itself.
+
+**Cost is a first-class constraint, not an afterthought.** Every company
+is one `haiku` agent call reading at most 2 transcripts (this quarter +
+previous). See "Why only 2 transcripts" below — this was a deliberate
+correction after the first version (4 quarters, `sonnet`) proved
+expensive at ~110k tokens per company on a day with 56 filings.
 
 ## Pipeline architecture
 
 ```
-NSE corporate-announcements API          screener.in (per company)
-      │                                          │
-      │ today's transcript-tagged filings        │ last 3-4 quarters'
-      ▼                                           │ transcripts
-scripts/fetch_todays_transcripts.py               ▼
-      │                              scripts/fetch_historical_transcripts.py
-      │ manifest.json: today's                    │ manifest.json: history
-      │ transcripts, per company                  │
-      └──────────────────┬────────────────────────┘
-                          ▼
-         Agent (concall-digest-writer, per company, parallel batches)
-                          │ reads all transcripts for that company,
-                          │ writes one digest emphasizing guidance +
-                          │ guidance-vs-actual track record
-                          ▼
-              digests/<date>/<SYMBOL>.md
-                          │
-                          ▼
-              digests/<date>/SUMMARY.md  (index, committed + pushed)
+NSE corporate-announcements API      digests/state.json (already known?)   screener.in
+      │                                          │                              │
+      │ today's transcript-tagged                │ previous-quarter summary     │ first time seeing
+      │ filings                                  │ text, if this company's      │ this company only:
+      ▼                                           │ been seen before             │ fetch previous
+scripts/fetch_todays_transcripts.py               │                              │ transcript
+      │                                           │                              ▼
+      │ manifest.json: today's                    └──────────────┬───────────────┘
+      │ transcript per company                                   │
+      └───────────────────────────────┬──────────────────────────┘
+                                       ▼
+              Agent (concall-digest-writer, haiku, per company, parallel batches)
+                                       │ writes a compact JSON cell (≤70 words/quarter,
+                                       │ guidance-forward, MET/BEAT/MISSED tag if
+                                       │ previous context was available)
+                                       ▼
+                        digests/cells/<SYMBOL>.json  (scratch, gitignored)
+                                       │
+                                       ▼
+                      scripts/build_table.py  (deterministic, not an LLM step —
+                                       │        avoids parallel agents racing on
+                                       │        one shared state file)
+                                       ▼
+       digests/state.json (rolling 4-quarter window per company, committed)
+       digests/TABLE.md    (rendered from state.json, committed + pushed)
 ```
 
-Two independent data sources feed each company's digest:
+Two independent data sources feed each company's cells:
 
 - **NSE** (`scripts/fetch_todays_transcripts.py`) is the trigger — it
   answers "who filed a transcript today" and provides that transcript
@@ -51,8 +62,25 @@ Two independent data sources feed each company's digest:
   curl's (fingerprinting, not a header check). See the script's docstring.
 - **screener.in** (`scripts/fetch_historical_transcripts.py`, vendored from
   the `transcript-summarizer` plugin — same repo owner, GitHub
-  `raftar2097-source/transcript-summarizer`) supplies the prior 3-4
-  quarters needed to judge whether guidance held up. No auth needed either.
+  `raftar2097-source/transcript-summarizer`) is used **only the first time
+  a company is seen**, to backfill one "previous quarter" cell. After
+  that, `digests/state.json` already has the prior quarter's summary, so
+  it's reused as context text instead of re-fetching or re-reading the raw
+  transcript again.
+
+## Why only 2 transcripts (not 4) per run
+
+The table has 4 quarter-columns, but each *run* only ever reads 2
+transcripts per company: today's (always) and, at most, one previous
+(fetched fresh only on a company's first appearance; reused from
+`state.json` every time after). The other columns aren't backfilled — they
+fill in naturally as that company reports quarter after quarter over
+roughly a year of real runs. A company will show blank cells on the left
+of its row until it's been through enough cycles. This trades a slower
+ramp to a full 4-quarter view for a flat, low, indefinitely-sustainable
+per-run cost — consistent with this user's other pipelines
+(`stock-logbook`) being built to run forever at near-zero cost rather than
+optimized for day-one completeness.
 
 ## Why "filed a transcript today" isn't quite "held a concall today"
 
@@ -75,9 +103,11 @@ Thursday shows up Thursday's. Framed as "transcripts filed today," not
 
 ## Data retention
 
-`digests/*.md` (the deliverable) is the only thing committed. Raw PDFs and
-extracted `.txt` live under `tmp/`, gitignored — they're regenerable working
-files, not worth the repo bloat of keeping forever.
+`digests/state.json` and `digests/TABLE.md` are the only things committed.
+Raw PDFs/`.txt` (`tmp/`) and per-company scratch cells (`digests/cells/`)
+are gitignored — regenerable working files, not worth the repo bloat of
+keeping forever. Daily history of the table itself lives in git log, not
+as separate dated files.
 
 ## Secrets
 

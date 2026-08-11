@@ -1,21 +1,23 @@
 # concall-daily-digest
 
 A personal, automated daily digest of NSE-listed companies' earnings-call
-(concall) transcripts — weighted toward **forward guidance** and **whether
-management's past guidance has actually held up**, not just restating
-results.
+(concall) transcripts, kept as **one running table** — weighted toward
+**forward guidance** and **whether management's past guidance has actually
+held up**, not just restating results.
 
 Every trading day:
 
 1. Find every NSE company that filed a concall transcript today.
-2. Pull each company's last 3-4 quarters of transcripts from screener.in
-   for context.
-3. Write a per-company digest: forward guidance, this quarter's
-   commentary, a guidance-vs-actual track record across the last 3-4
-   quarters (met/beat/missed/quietly-dropped), tone trend, one-line verdict.
-4. Commit everything to `digests/<date>/` and push.
+2. For each: compare against the previous quarter (fetched fresh only the
+   first time a company is seen; reused from stored state every time after).
+3. Write a compact per-quarter cell — forward guidance first, then a
+   MET/BEAT/MISSED/PARTIAL tag against what was previously guided.
+4. Merge into `digests/TABLE.md`: one row per company, up to 4
+   quarter-columns, oldest column drops off as new ones arrive.
+5. Commit and push.
 
-See `CLAUDE.md` for the pipeline architecture and
+See `CLAUDE.md` for the pipeline architecture (including why only 2
+transcripts are read per company per run) and
 `.claude/skills/daily-digest/SKILL.md` for the exact procedure.
 
 ## Run it
@@ -40,18 +42,21 @@ or, inside Claude Code, from this repo:
 
 ```
 scripts/fetch_todays_transcripts.py       # NSE: today's filed transcripts
-scripts/fetch_historical_transcripts.py   # screener.in: last N quarters for a company
-.claude/agents/concall-digest-writer.md   # per-company digest writer
+scripts/fetch_historical_transcripts.py   # screener.in: previous quarter (first-seen companies only)
+scripts/build_table.py                    # deterministic merge: cells/*.json -> state.json -> TABLE.md
+.claude/agents/concall-digest-writer.md   # per-company cell writer (haiku)
 .claude/skills/daily-digest/SKILL.md      # the full daily procedure
-digests/<date>/SUMMARY.md                 # index, skim this first
-digests/<date>/<SYMBOL>.md                # per-company digest
+digests/TABLE.md                          # the deliverable: one row per company
+digests/state.json                        # persistent rolling 4-quarter data behind the table
 ```
 
 ## Scope
 
 NSE-listed only (BSE-only microcaps not covered in v1). India equities.
 "Filed a transcript today" is not exactly "held a concall today" — see
-CLAUDE.md.
+CLAUDE.md. The table starts sparse (2 of 4 columns per new company) and
+fills in over real quarterly cycles by design, to keep per-run cost low
+and flat rather than backfilling everything upfront.
 
 ## License
 

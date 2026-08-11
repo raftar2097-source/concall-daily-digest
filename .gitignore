@@ -1,6 +1,7 @@
 tmp/
 nse_transcripts/
 screener_transcripts/
+digests/cells/
 *.pdf
 *.pyc
 __pycache__/
