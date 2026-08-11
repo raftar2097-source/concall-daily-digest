@@ -14,7 +14,10 @@ Every trading day:
    MET/BEAT/MISSED/PARTIAL tag against what was previously guided.
 4. Merge into `digests/TABLE.md`: one row per company, up to 4
    quarter-columns, oldest column drops off as new ones arrive.
-5. Commit and push.
+5. Rebuild `docs/index.html` — a color-coded view (green = guidance
+   met/beat, red = missed, neutral = partial or not yet comparable),
+   served by GitHub Pages: **https://raftar2097-source.github.io/concall-daily-digest/**
+6. Commit and push.
 
 See `CLAUDE.md` for the pipeline architecture (including why only 2
 transcripts are read per company per run) and
@@ -43,11 +46,14 @@ or, inside Claude Code, from this repo:
 ```
 scripts/fetch_todays_transcripts.py       # NSE: today's filed transcripts
 scripts/fetch_historical_transcripts.py   # screener.in: previous quarter (first-seen companies only)
+scripts/filter_new_companies.py           # idempotency: skip companies already logged this quarter
 scripts/build_table.py                    # deterministic merge: cells/*.json -> state.json -> TABLE.md
+scripts/build_site.py                     # deterministic render: state.json -> docs/index.html
 .claude/agents/concall-digest-writer.md   # per-company cell writer (haiku)
 .claude/skills/daily-digest/SKILL.md      # the full daily procedure
-digests/TABLE.md                          # the deliverable: one row per company
-digests/state.json                        # persistent rolling 4-quarter data behind the table
+digests/TABLE.md                          # plain-Markdown view: one row per company
+digests/state.json                        # persistent rolling 4-quarter data behind both views
+docs/index.html                           # color-coded HTML view, served by GitHub Pages
 ```
 
 ## Scope

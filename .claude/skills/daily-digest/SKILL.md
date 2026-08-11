@@ -85,25 +85,31 @@ Batch **~10-15 companies per message** (parallel independent Agent calls) —
 haiku is cheap and fast enough that this batch size is fine; move to the
 next batch once one returns.
 
-## 4. Merge into the table and commit
+## 4. Merge into the table, rebuild the site, and commit
 
 ```bash
 python3 scripts/build_table.py
+python3 scripts/build_site.py
 ```
 
-This is a plain deterministic script (not an LLM step, deliberately — see
-its docstring) that merges every `digests/cells/*.json` into
-`digests/state.json` (rolling window, most recent 4 quarters per company)
-and re-renders `digests/TABLE.md` from it. Then:
+Both are plain deterministic scripts (not LLM steps, deliberately — see
+their docstrings). `build_table.py` merges every `digests/cells/*.json`
+into `digests/state.json` (rolling window, most recent 4 quarters per
+company) and re-renders `digests/TABLE.md`. `build_site.py` renders the
+same `state.json` into `docs/index.html` — a color-coded HTML view (green
+= guidance met/beat, red = missed, neutral = partial or no comparison yet)
+served by GitHub Pages. Run `build_table.py` first; `build_site.py` reads
+its output. Then:
 
 ```bash
-git add digests/state.json digests/TABLE.md
+git add digests/state.json digests/TABLE.md docs/index.html
 git commit -m "Concall digest for <date>: N companies (M new, K first-seen)"
 git push
 ```
 
-Only `state.json` and `TABLE.md` are committed — `digests/cells/` is
-scratch (gitignored, and `build_table.py` deletes processed files anyway).
+Only `state.json`, `TABLE.md`, and `docs/index.html` are committed —
+`digests/cells/` is scratch (gitignored, and `build_table.py` deletes
+processed files anyway).
 
 ## Known constraints
 

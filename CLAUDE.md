@@ -9,13 +9,31 @@ a new data source, a different dedup strategy, a change to what
 ## What this is
 
 A personal, automated daily digest of Indian (NSE-listed) earnings-call
-transcripts, rendered as **one persistent table**
-(`digests/TABLE.md`) — one row per company, up to 4 quarter-columns —
-weighted toward **forward guidance** and **whether management's past
-guidance has actually held up**, not just "what were the numbers." Runs via
-the `daily-digest` skill (`.claude/skills/daily-digest/SKILL.md`), which is
-the source of truth for the step-by-step pipeline; this file is
-architecture context, not the procedure itself.
+transcripts, rendered as **one persistent table** — a plain-Markdown view
+(`digests/TABLE.md`) and a color-coded HTML view
+(`docs/index.html`, served by GitHub Pages at
+**https://raftar2097-source.github.io/concall-daily-digest/**) — one row
+per company, up to 4 quarter-columns, weighted toward **forward guidance**
+and **whether management's past guidance has actually held up**, not just
+"what were the numbers." Runs via the `daily-digest` skill
+(`.claude/skills/daily-digest/SKILL.md`), which is the source of truth for
+the step-by-step pipeline; this file is architecture context, not the
+procedure itself.
+
+**This repo is public**, unlike this user's other pipeline
+(`stock-logbook`, which keeps a private data repo and pushes only a built
+site to a separate public repo). That split exists there specifically to
+get free GitHub Pages hosting on a private repo. Here, the repo had to
+become public anyway for a different reason — claude.ai's Routines feature
+(used for the daily cron trigger) can currently only see **public**
+repositories, confirmed by inspecting its `code/repos` API response
+(`is_complete: true`, zero private repos returned — not a caching issue).
+Given that constraint already forced public visibility, there was no
+reason to also run the two-repo split — `docs/index.html` is served
+directly from this repo's own GitHub Pages. If claude.ai's connector ever
+gains private-repo support, revisit whether to make this repo private
+again and split off a `concall-daily-digest-site` repo the way
+`stock-logbook` does.
 
 **Cost is a first-class constraint, not an afterthought.** Every company
 is one `haiku` agent call reading at most 2 transcripts (this quarter +
@@ -55,7 +73,14 @@ scripts/filter_new_companies.py                                   │
                                        │        one shared state file)
                                        ▼
        digests/state.json (rolling 4-quarter window per company, committed)
-       digests/TABLE.md    (rendered from state.json, committed + pushed)
+                                       │
+                                       ▼
+                      scripts/build_site.py  (deterministic; reads state.json,
+                                       │        color-codes by verdict)
+                                       ▼
+       digests/TABLE.md     (plain-Markdown view, committed + pushed)
+       docs/index.html      (color-coded HTML view, served by GitHub Pages,
+                              committed + pushed)
 ```
 
 Two independent data sources feed each company's cells:
@@ -113,11 +138,11 @@ Thursday shows up Thursday's. Framed as "transcripts filed today," not
 
 ## Data retention
 
-`digests/state.json` and `digests/TABLE.md` are the only things committed.
-Raw PDFs/`.txt` (`tmp/`) and per-company scratch cells (`digests/cells/`)
-are gitignored — regenerable working files, not worth the repo bloat of
-keeping forever. Daily history of the table itself lives in git log, not
-as separate dated files.
+`digests/state.json`, `digests/TABLE.md`, and `docs/index.html` are the
+only things committed. Raw PDFs/`.txt` (`tmp/`) and per-company scratch
+cells (`digests/cells/`) are gitignored — regenerable working files, not
+worth the repo bloat of keeping forever. Daily history of the table itself
+lives in git log, not as separate dated files.
 
 ## Secrets
 

@@ -23,8 +23,8 @@ Write the destination JSON file with this exact shape:
   "symbol": "<SYMBOL>",
   "company_name": "<name>",
   "cells": [
-    {"quarter": "<label>", "summary": "<...>"},   // only if you read a fresh previous-quarter transcript
-    {"quarter": "<label>", "summary": "<...>"}     // always: today's
+    {"quarter": "<label>", "summary": "<...>", "verdict": null},          // only if you read a fresh previous-quarter transcript
+    {"quarter": "<label>", "summary": "<...>", "verdict": "<verdict>"}    // always: today's
   ]
 }
 ```
@@ -33,14 +33,23 @@ Write the destination JSON file with this exact shape:
 if previous context was given to you only as an existing summary string
 rather than a file to read — in that case only emit today's cell.)
 
+**`verdict`** is a separate machine-readable field (the site that renders
+this table color-codes rows by it — don't skip it or bury it only in
+prose). One of exactly: `"beat"`, `"met"`, `"partial"`, `"too_early"`,
+`"missed"`, or `null`. Use `null` whenever there's no previous-quarter
+context to compare against (always true for a "previous" cell; also true
+for a "current" cell if no previous context was given). For today's cell
+when previous context *was* given, always set a real verdict — don't leave
+it null just because the call was mixed; use `"partial"` for that.
+
 **Each `summary` value is a table cell, not a report** — hard cap **70
 words**. Prioritize in this order:
 1. Any forward-looking guidance stated this quarter (numbers/timeframes if
    given; say plainly if management stayed vague or declined to guide).
-2. For today's cell only, if you were given previous-quarter context
-   (either a file or a summary string): one clause tagging how this
-   quarter's actuals/guidance compare to what was previously guided —
-   MET / BEAT / MISSED / PARTIAL / TOO EARLY.
+2. For today's cell only, if you were given previous-quarter context: one
+   clause naming how this quarter's actuals/guidance compare to what was
+   previously guided — this should read as a natural restatement of
+   `verdict`, not contradict it.
 3. Only then, if room remains, the single most notable result or tone
    point.
 
