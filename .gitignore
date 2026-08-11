@@ -1,0 +1,7 @@
+tmp/
+nse_transcripts/
+screener_transcripts/
+*.pdf
+*.pyc
+__pycache__/
+.DS_Store
