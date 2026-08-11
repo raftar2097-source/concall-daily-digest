@@ -35,6 +35,11 @@ scripts/fetch_todays_transcripts.py               │                           
       │                                           │                              ▼
       │ manifest.json: today's                    └──────────────┬───────────────┘
       │ transcript per company                                   │
+      ▼                                                           │
+scripts/filter_new_companies.py                                   │
+      │ drops any company already logged                          │
+      │ for this quarter — before any                              │
+      │ fetch or agent spend happens                                │
       └───────────────────────────────┬──────────────────────────┘
                                        ▼
               Agent (concall-digest-writer, haiku, per company, parallel batches)
@@ -60,6 +65,11 @@ Two independent data sources feed each company's cells:
   itself. Requests go through `curl`, not Python's own HTTP stack — NSE's
   bot-protection 403s identical requests from Python's TLS stack but not
   curl's (fingerprinting, not a header check). See the script's docstring.
+- `scripts/filter_new_companies.py` is the idempotency guard: a company
+  already logged for the current quarter (e.g. a same-day re-run) is
+  dropped before any screener.in fetch or agent spend, not just deduped
+  later when `build_table.py` merges — the merge-time dedupe is a
+  backstop, not the primary cost control.
 - **screener.in** (`scripts/fetch_historical_transcripts.py`, vendored from
   the `transcript-summarizer` plugin — same repo owner, GitHub
   `raftar2097-source/transcript-summarizer`) is used **only the first time

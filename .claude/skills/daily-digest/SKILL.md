@@ -9,8 +9,10 @@ Turns "which NSE companies had a concall today" into updates to one
 persistent table (`digests/TABLE.md`) — one row per company, up to 4
 quarter-columns, weighted toward forward guidance and whether management's
 guidance has actually held up. Built for daily, indefinite, low-cost
-operation: `haiku` for the per-company writes, and only 2 transcripts ever
-read per company per run (never re-fetches quarters already logged).
+operation: `haiku` for the per-company writes, at most 2 transcripts ever
+read per company per run, and a company already logged for the current
+quarter is skipped entirely before any fetch or agent spend (step 1.5) —
+so re-running the pipeline the same day is close to free.
 
 ## 0. Setup check
 
@@ -29,10 +31,26 @@ Read the printed `manifest.json`. **If `manifest["companies"]` is empty**
 rush), that's a valid outcome — note it in the commit message and stop,
 don't fabricate content.
 
-## 2. For each company, decide what "previous" means
+## 1.5. Skip companies already logged for this quarter
+
+```bash
+python3 scripts/filter_new_companies.py tmp/nse_$(date +%Y%m%d)/manifest.json > tmp/manifest.filtered.json
+```
+
+This is a **deterministic pre-filter, not an LLM judgment call** — it drops
+any company whose current-quarter label is already in `digests/state.json`
+before any screener.in fetch or agent spend happens. It exists so a
+same-day re-run (someone re-triggers the pipeline, or it's run twice)
+doesn't burn a fetch-plus-haiku-analysis cycle on a company only to have it
+silently deduped later at merge time by `build_table.py` — that later
+dedupe is still a correctness backstop, but it shouldn't be the *only*
+thing preventing wasted work. Use `tmp/manifest.filtered.json`'s
+`companies` list for every step from here on, not the original manifest.
+
+## 2. For each remaining company, decide what "previous" means
 
 Read `digests/state.json` (may not exist yet — treat as `{}` if so). For
-each company in today's manifest, derive `current`: quarter label =
+each company in the **filtered** manifest, derive `current`: quarter label =
 today's date as `"%b %Y"` (e.g. "Aug 2026"), transcript = the `.txt` path
 from step 1's manifest. Then, **per company**:
 
