@@ -45,9 +45,38 @@ For each story, produce:
   "category": "beat | miss | quiet_change | deflection",
   "headline": "<one factual line, <=100 chars, the hook>",
   "instagram_caption": "<factual caption, 3-5 short lines, ends with the standard disclaimer>",
-  "youtube_shorts_script": "<30-45s voiceover script with [ON-SCREEN: ...] cues for text overlays, factual throughout, ends with the standard disclaimer read out>"
+  "youtube_shorts_script": "<30-45s voiceover script with [ON-SCREEN: ...] cues for text overlays, factual throughout, ends with the standard disclaimer read out>",
+  "slides": {
+    "hook": ["<line 1, short>", "<line 2, short, optional>"],
+    "stats": [
+      {"label": "<UPPERCASE short label>", "value": "<the number/figure>", "tag": "<UPPERCASE 1-2 words, e.g. BEAT/MISS/RAISED/CUT/DECLINED>", "direction": "pos | neg | neutral"}
+    ],
+    "context_title": "<one short line for the third slide>",
+    "context_stats": [
+      {"label": "<UPPERCASE short label>", "value": "<figure>", "sub": "<small supporting detail, or empty string>"}
+    ]
+  }
 }
 ```
+
+`slides` feeds an automated image-card renderer (three 1080x1080 slides:
+hook, stats, context) — it is **structured data, not more prose**, so keep
+every string short enough to render as a large headline or stat (hook
+lines: <=45 chars each; stat values: <=14 chars; labels: <=30 chars). Same
+factual-only rule applies here as everywhere else in this file — `tag` and
+`direction` describe what happened (BEAT/MISS/RAISED/CUT/DECLINED,
+pos/neg/neutral), not an opinion about it.
+
+- `stats`: 1 item for a single guided-vs-actual or headline-number story;
+  2 items only when the story is genuinely about two figures moving in
+  different directions (a `quiet_change` story like one segment's guidance
+  raised while another's was quietly cut). Don't force a second stat that
+  isn't part of the actual story.
+- For a `deflection` story with no guidance number to show, use the stat
+  that *is* available instead (e.g. the profit/result figure), with
+  `tag: "DECLINED TO GUIDE"` and `direction: "neutral"`.
+- `context_stats`: 1-2 supporting figures from the same quarter (revenue,
+  margin, etc.) — whatever grounds the headline stat, not a random pick.
 
 The standard disclaimer (append verbatim, don't paraphrase it):
 `"Factual summary of public company disclosures. Not investment advice."`

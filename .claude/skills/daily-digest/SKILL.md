@@ -124,7 +124,25 @@ public-facing in a way the rest of the pipeline isn't** — the agent's own
 instructions carry a hard rule about staying factual (no BEAT/MISS-style
 opinion language, no "credible guidance" framing) for exactly that reason.
 Don't relax this even if asked to make the copy punchier — see
-`CLAUDE.md`'s SEBI section for why.
+`CLAUDE.md`'s SEBI section for why. The agent's output also includes a
+`slides` field per story (structured, not prose) — that's what the next
+step renders into images; don't let it drift back into paragraph text.
+
+## 5.5. Render the highlight cards
+
+```bash
+python3 scripts/build_highlight_cards.py digests/highlights/<date>.json
+```
+
+Deterministic — turns each story's `slides` data into a 3-image 1080x1080
+carousel (hook / stats / context) under `digests/highlights/<DDMMYYYY>/`.
+**If no headless Chromium/Chrome is available in this environment, the
+script prints a warning and exits 0 without images** — this is expected
+degraded behavior, not a failure to fix mid-run. The text content
+(captions, scripts) in `digests/highlights/<date>.json` is unaffected and
+is still the primary deliverable of this step; note in your final summary
+whether images were generated or skipped, but don't treat a skip as
+blocking the rest of the pipeline.
 
 ## 6. Commit
 
@@ -134,8 +152,9 @@ git commit -m "Concall digest for <date>: N companies (M new, K first-seen)"
 git push
 ```
 
-`digests/highlights/<date>.json` is committed (it's a dated archive of
-what got posted, not scratch); `digests/cells/` is not (gitignored, and
+`digests/highlights/` (both the dated `.json` and, when generated, the
+`<DDMMYYYY>/*.png` cards) is committed — it's a dated archive of what got
+posted, not scratch. `digests/cells/` is not committed (gitignored, and
 `build_table.py` deletes processed files anyway).
 
 ## Known constraints

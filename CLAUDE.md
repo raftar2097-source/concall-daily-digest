@@ -90,10 +90,19 @@ scripts/filter_new_companies.py                                   │
               Agent (highlights-writer, sonnet, one call for the whole day)
                                        │ picks 3-5 notable stories, writes
                                        │ factual Instagram/YouTube Shorts copy
+                                       │ + structured `slides` data per story
                                        ▼
        digests/highlights/<date>.json  (committed — see "Public content /
-                                         SEBI" below before touching this
-                                         agent's output rules)
+                                       │  SEBI" below before touching this
+                                       │  agent's output rules)
+                                       ▼
+              scripts/build_highlight_cards.py  (deterministic; renders
+                                       │  `slides` into 3 PNGs/story via
+                                       │  headless Chromium — skips itself
+                                       │  gracefully if none is available)
+                                       ▼
+       digests/highlights/<DDMMYYYY>/*.png  (1080x1080 Instagram-carousel
+                                              cards, committed)
 ```
 
 Two independent data sources feed each company's cells:
@@ -177,12 +186,21 @@ over time — that drift is exactly what the regulation targets.
   `parse_concalls()` silently (returns no concalls) rather than erroring
   loudly. If a normally-covered company shows "no history," check that
   before assuming the company itself lacks transcripts.
+- **`scripts/build_highlight_cards.py` needs a headless Chromium/Chrome
+  binary** on the machine it runs on. Not present by default on the cloud
+  routine's environment — the environment's setup script installs it via
+  apt (`chromium` or `chromium-browser`, whichever the image has). If
+  that ever stops working, the script degrades gracefully (skips images,
+  keeps the text content), it doesn't fail the run — check the
+  environment's setup script output before assuming the renderer itself
+  broke.
 
 ## Data retention
 
-`digests/state.json`, `digests/TABLE.md`, `docs/index.html`, and
-`digests/highlights/<date>.json` are committed. Raw PDFs/`.txt` (`tmp/`)
-and per-company scratch cells (`digests/cells/`) are gitignored —
+`digests/state.json`, `digests/TABLE.md`, `docs/index.html`,
+`digests/highlights/<date>.json`, and `digests/highlights/<DDMMYYYY>/*.png`
+are committed. Raw PDFs/`.txt` (`tmp/`) and per-company scratch cells
+(`digests/cells/`) are gitignored —
 regenerable working files, not worth the repo bloat of keeping forever.
 `highlights/` is kept as dated files (unlike the table) specifically so
 there's a record of exactly what copy was posted publicly on a given day.

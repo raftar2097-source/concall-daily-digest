@@ -17,7 +17,11 @@ Every trading day:
 5. Rebuild `docs/index.html` — a color-coded view (green = guidance
    met/beat, red = missed, neutral = partial or not yet comparable),
    served by GitHub Pages: **https://raftar2097-source.github.io/concall-daily-digest/**
-6. Commit and push.
+6. Pick the 3-5 most notable stories of the day and generate ready-to-post
+   Instagram/YouTube Shorts copy plus a 3-image 1080x1080 carousel per
+   story (`digests/highlights/`) — strictly factual, no BEAT/MISS-style
+   opinion language, see `CLAUDE.md`'s "Public content / SEBI" section.
+7. Commit and push.
 
 See `CLAUDE.md` for the pipeline architecture (including why only 2
 transcripts are read per company per run) and
@@ -40,6 +44,9 @@ or, inside Claude Code, from this repo:
 - `pdftotext` (poppler-utils): `brew install poppler` / `apt install poppler-utils`
 - `curl` on PATH (required — NSE's API blocks Python's own HTTP stack; see
   `scripts/fetch_todays_transcripts.py`)
+- A headless-capable Chromium/Chrome binary (optional — only needed for
+  `build_highlight_cards.py`'s image generation; the pipeline degrades
+  gracefully without it, just skips the images)
 
 ## Layout
 
@@ -49,11 +56,16 @@ scripts/fetch_historical_transcripts.py   # screener.in: previous quarter (first
 scripts/filter_new_companies.py           # idempotency: skip companies already logged this quarter
 scripts/build_table.py                    # deterministic merge: cells/*.json -> state.json -> TABLE.md
 scripts/build_site.py                     # deterministic render: state.json -> docs/index.html
+scripts/todays_updates.py                 # deterministic: today's newly-updated companies, for highlights
+scripts/build_highlight_cards.py          # deterministic render: highlights JSON -> 1080x1080 PNG cards
 .claude/agents/concall-digest-writer.md   # per-company cell writer (haiku)
+.claude/agents/highlights-writer.md       # daily highlights + social copy writer (sonnet)
 .claude/skills/daily-digest/SKILL.md      # the full daily procedure
 digests/TABLE.md                          # plain-Markdown view: one row per company
 digests/state.json                        # persistent rolling 4-quarter data behind both views
 docs/index.html                           # color-coded HTML view, served by GitHub Pages
+digests/highlights/<date>.json            # daily Instagram/YouTube Shorts copy (factual only)
+digests/highlights/<DDMMYYYY>/*.png       # matching 1080x1080 carousel cards
 ```
 
 ## Scope
