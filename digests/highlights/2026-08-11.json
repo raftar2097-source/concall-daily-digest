@@ -7,7 +7,18 @@
       "category": "beat",
       "headline": "Marico Q1: revenue grew 23% vs high-teens guided; EBITDA grew 25% vs high-teens target",
       "instagram_caption": "Marico guided high-teens revenue growth for Q1 — delivered 23%.\nEBITDA growth guided high-teens — came in at 25%.\nIndia volumes guided high-single-digit — actual: 11%.\nFull-year targets (₹15,000+ cr revenue, high-teens EBITDA) reaffirmed.\nFactual summary of public company disclosures. Not investment advice.",
-      "youtube_shorts_script": "[ON-SCREEN: MARICO — Q1 FY27]\nMarico had guided high-teens revenue growth for the quarter.\n[ON-SCREEN: Revenue growth — Guided: high-teens | Actual: 23%]\nActual revenue growth came in at 23%.\n[ON-SCREEN: EBITDA growth — Guided: high-teens | Actual: 25%]\nEBITDA growth was guided at high-teens, delivered at 25%.\n[ON-SCREEN: India volume — Guided: high single-digit | Actual: 11%]\nIndia volume growth was guided at high single digits, actual came in at 11%, with Parachute posting 10% volume growth against an expected modest number.\n[ON-SCREEN: FY27 target reaffirmed: ₹15,000+ cr revenue, high-teens EBITDA]\nManagement reaffirmed its full-year target of over ₹15,000 crore in revenue and high-teens EBITDA growth.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice."
+      "youtube_shorts_script": "[ON-SCREEN: MARICO — Q1 FY27]\nMarico had guided high-teens revenue growth for the quarter.\n[ON-SCREEN: Revenue growth — Guided: high-teens | Actual: 23%]\nActual revenue growth came in at 23%.\n[ON-SCREEN: EBITDA growth — Guided: high-teens | Actual: 25%]\nEBITDA growth was guided at high-teens, delivered at 25%.\n[ON-SCREEN: India volume — Guided: high single-digit | Actual: 11%]\nIndia volume growth was guided at high single digits, actual came in at 11%, with Parachute posting 10% volume growth against an expected modest number.\n[ON-SCREEN: FY27 target reaffirmed: ₹15,000+ cr revenue, high-teens EBITDA]\nManagement reaffirmed its full-year target of over ₹15,000 crore in revenue and high-teens EBITDA growth.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["MARICO BEAT", "ITS OWN GUIDANCE"],
+        "stats": [
+          {"label": "EBITDA GROWTH", "value": "25%", "tag": "BEAT", "direction": "pos"}
+        ],
+        "context_title": "Also beat on revenue and volume",
+        "context_stats": [
+          {"label": "REVENUE GROWTH", "value": "23%", "sub": "vs high-teens guided"},
+          {"label": "INDIA VOLUME", "value": "11%", "sub": "vs high-single-digit guided"}
+        ]
+      }
     },
     {
       "symbol": "SONATSOFTW",
@@ -15,7 +26,18 @@
       "category": "miss",
       "headline": "Sonata Software: EBITDA margin fell to 15.4% from 20.2% despite pipeline, order-win beats",
       "instagram_caption": "Sonata's AI pipeline rose 21% to $340M, and order wins were up 27% QoQ — ahead of May guidance.\nEBITDA margin fell to 15.4%, down from 20.2% the prior period.\nManagement cited a one-time compensation reversal, AI investments, deal ramp delays, and a forex impact of ₹35.4 crore.\nUtilization dipped to 88.5%.\nFactual summary of public company disclosures. Not investment advice.",
-      "youtube_shorts_script": "[ON-SCREEN: SONATA SOFTWARE — Q1 FY27]\nSonata's AI pipeline grew 21% to $340 million, and order wins rose 27% quarter-on-quarter — both ahead of May's guidance.\n[ON-SCREEN: EBITDA margin: 20.2% → 15.4%]\nBut EBITDA margin fell sharply, from 20.2% in the prior period to 15.4% this quarter.\n[ON-SCREEN: Cited: one-time comp reversal, AI investment, ramp delays, forex hit ₹35.4 Cr]\nManagement attributed the drop to a one-time compensation reversal, higher AI investment, delayed deal ramp-ups, and a forex impact of ₹35.4 crore.\n[ON-SCREEN: Utilization: 88.5%]\nUtilization dipped to 88.5%, with recovery expected next quarter.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice."
+      "youtube_shorts_script": "[ON-SCREEN: SONATA SOFTWARE — Q1 FY27]\nSonata's AI pipeline grew 21% to $340 million, and order wins rose 27% quarter-on-quarter — both ahead of May's guidance.\n[ON-SCREEN: EBITDA margin: 20.2% → 15.4%]\nBut EBITDA margin fell sharply, from 20.2% in the prior period to 15.4% this quarter.\n[ON-SCREEN: Cited: one-time comp reversal, AI investment, ramp delays, forex hit ₹35.4 Cr]\nManagement attributed the drop to a one-time compensation reversal, higher AI investment, delayed deal ramp-ups, and a forex impact of ₹35.4 crore.\n[ON-SCREEN: Utilization: 88.5%]\nUtilization dipped to 88.5%, with recovery expected next quarter.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["SONATA SOFTWARE", "MARGIN MISS"],
+        "stats": [
+          {"label": "EBITDA MARGIN", "value": "15.4%", "tag": "MISS", "direction": "neg"}
+        ],
+        "context_title": "Pipeline and order wins beat guidance",
+        "context_stats": [
+          {"label": "AI PIPELINE", "value": "$340M", "sub": "+21%, beat May guide"},
+          {"label": "UTILIZATION", "value": "88.5%", "sub": "dipped from prior qtr"}
+        ]
+      }
     },
     {
       "symbol": "JISLDVREQS",
@@ -23,7 +45,18 @@
       "category": "miss",
       "headline": "Jain Irrigation cuts FY27 margin guidance to 14% from February's 18-20%, after Q1 PAT fell 90%",
       "instagram_caption": "Jain Irrigation had guided 18-20% FY27 standalone margins back in February.\nThat guidance is now revised down to 14%.\nQ1 revenue fell 2.5% YoY to ₹1,500 crore; adjusted PAT fell to ₹3 crore from ₹30 crore a year earlier.\nManagement attributes the shortfall to monsoon delays and a 50% polymer price hike, and expects a second-half recovery.\nFactual summary of public company disclosures. Not investment advice.",
-      "youtube_shorts_script": "[ON-SCREEN: JAIN IRRIGATION — Q1 FY27]\nBack in February, Jain Irrigation guided FY27 standalone margins of 18 to 20 percent.\n[ON-SCREEN: Guidance: 18-20% → 14%]\nThat guidance has now been revised down to 14 percent.\n[ON-SCREEN: Revenue: -2.5% YoY | PAT: ₹3 Cr vs ₹30 Cr]\nQ1 revenue fell 2.5% year-on-year to ₹1,500 crore, and adjusted profit after tax dropped to ₹3 crore, down from ₹30 crore a year earlier.\n[ON-SCREEN: Cited: monsoon delays, 50% polymer price hike]\nManagement cited monsoon delays and a 50% jump in polymer prices, which pushed customer orders into later quarters.\n[ON-SCREEN: Double-digit FY27 revenue growth guidance maintained]\nDouble-digit full-year revenue growth guidance was maintained, with management expecting recovery in the second half.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice."
+      "youtube_shorts_script": "[ON-SCREEN: JAIN IRRIGATION — Q1 FY27]\nBack in February, Jain Irrigation guided FY27 standalone margins of 18 to 20 percent.\n[ON-SCREEN: Guidance: 18-20% → 14%]\nThat guidance has now been revised down to 14 percent.\n[ON-SCREEN: Revenue: -2.5% YoY | PAT: ₹3 Cr vs ₹30 Cr]\nQ1 revenue fell 2.5% year-on-year to ₹1,500 crore, and adjusted profit after tax dropped to ₹3 crore, down from ₹30 crore a year earlier.\n[ON-SCREEN: Cited: monsoon delays, 50% polymer price hike]\nManagement cited monsoon delays and a 50% jump in polymer prices, which pushed customer orders into later quarters.\n[ON-SCREEN: Double-digit FY27 revenue growth guidance maintained]\nDouble-digit full-year revenue growth guidance was maintained, with management expecting recovery in the second half.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["JAIN IRRIGATION", "GUIDANCE CUT"],
+        "stats": [
+          {"label": "FY27 MARGIN GUIDANCE", "value": "14%", "tag": "CUT", "direction": "neg"}
+        ],
+        "context_title": "Q1 results fell short",
+        "context_stats": [
+          {"label": "ADJUSTED PAT", "value": "₹3 Cr", "sub": "vs ₹30 Cr prior year"},
+          {"label": "REVENUE", "value": "₹1,500 Cr", "sub": "-2.5% YoY"}
+        ]
+      }
     },
     {
       "symbol": "RPPL",
@@ -31,7 +64,19 @@
       "category": "quiet_change",
       "headline": "Rajshree Polypack raises plastics guidance to ₹420-430cr; quietly cuts Olive JV guidance to ~₹90cr",
       "instagram_caption": "Rajshree Polypack's core plastics packaging guidance for FY27 was raised to ₹420-430 crore.\nIn the same call, guidance for its Olive JV was cut to about ₹90 crore, down from the earlier ₹120-130 crore.\nQ1 results: revenue ₹102.91 crore (+24.7% YoY), EBITDA margin 16.05%.\nThe JV guidance cut sits within an overall upgraded outlook.\nFactual summary of public company disclosures. Not investment advice.",
-      "youtube_shorts_script": "[ON-SCREEN: RAJSHREE POLYPACK — Q1 FY27]\nRajshree Polypack raised its FY27 guidance for its core plastics packaging business, to ₹420 to 430 crore.\n[ON-SCREEN: Plastics guidance: raised to ₹420-430 Cr]\nBut in the same call, guidance for its Olive joint venture was cut.\n[ON-SCREEN: Olive JV guidance: ₹120-130 Cr → ~₹90 Cr]\nThe Olive JV's revenue guidance was lowered to around ₹90 crore, down from the earlier ₹120 to 130 crore range.\n[ON-SCREEN: Q1: revenue +24.7% YoY | EBITDA margin 16.05%]\nQ1 revenue rose 24.7% year-on-year to ₹102.91 crore, with an EBITDA margin of 16.05%, driven by the core packaging business.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice."
+      "youtube_shorts_script": "[ON-SCREEN: RAJSHREE POLYPACK — Q1 FY27]\nRajshree Polypack raised its FY27 guidance for its core plastics packaging business, to ₹420 to 430 crore.\n[ON-SCREEN: Plastics guidance: raised to ₹420-430 Cr]\nBut in the same call, guidance for its Olive joint venture was cut.\n[ON-SCREEN: Olive JV guidance: ₹120-130 Cr → ~₹90 Cr]\nThe Olive JV's revenue guidance was lowered to around ₹90 crore, down from the earlier ₹120 to 130 crore range.\n[ON-SCREEN: Q1: revenue +24.7% YoY | EBITDA margin 16.05%]\nQ1 revenue rose 24.7% year-on-year to ₹102.91 crore, with an EBITDA margin of 16.05%, driven by the core packaging business.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["ONE CALL,", "TWO GUIDANCE MOVES"],
+        "stats": [
+          {"label": "CORE PLASTICS FY27", "value": "₹420-430Cr", "tag": "RAISED", "direction": "pos"},
+          {"label": "OLIVE JV FY27", "value": "~₹90Cr", "tag": "CUT", "direction": "neg"}
+        ],
+        "context_title": "Q1: core strong, JV lagging",
+        "context_stats": [
+          {"label": "Q1 REVENUE", "value": "₹102.91Cr", "sub": "+24.7% YoY"},
+          {"label": "EBITDA MARGIN", "value": "16.05%", "sub": ""}
+        ]
+      }
     },
     {
       "symbol": "GESHIP",
@@ -39,7 +84,18 @@
       "category": "deflection",
       "headline": "Great Eastern Shipping again declines guidance despite its most profitable quarter ever",
       "instagram_caption": "Great Eastern Shipping's management again declined to give earnings guidance on this call.\nThat's despite delivering its most profitable quarter ever: consolidated profit of ₹1,309 crore.\nMR tankers were earning near $50,000/day; LPG carriers above $100,000/day — both near all-time highs.\nOrder book stands at 27% for crude tankers and 35% for LPG.\nFactual summary of public company disclosures. Not investment advice.",
-      "youtube_shorts_script": "[ON-SCREEN: GREAT EASTERN SHIPPING — Q1 FY27]\nGreat Eastern Shipping's management once again declined to give specific earnings guidance on this call.\n[ON-SCREEN: Consolidated profit: ₹1,309 Cr — most profitable quarter ever]\nThat's despite posting its most profitable quarter ever, with consolidated profit of ₹1,309 crore.\n[ON-SCREEN: MR tankers: ~$50,000/day | LPG: $100,000+/day]\nMR tanker rates were near $50,000 a day, and LPG rates were above $100,000 a day — both close to all-time highs.\n[ON-SCREEN: Order book: 27% crude tankers, 35% LPG]\nThe order book stood at 27% for crude tankers and 35% for LPG carriers.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice."
+      "youtube_shorts_script": "[ON-SCREEN: GREAT EASTERN SHIPPING — Q1 FY27]\nGreat Eastern Shipping's management once again declined to give specific earnings guidance on this call.\n[ON-SCREEN: Consolidated profit: ₹1,309 Cr — most profitable quarter ever]\nThat's despite posting its most profitable quarter ever, with consolidated profit of ₹1,309 crore.\n[ON-SCREEN: MR tankers: ~$50,000/day | LPG: $100,000+/day]\nMR tanker rates were near $50,000 a day, and LPG rates were above $100,000 a day — both close to all-time highs.\n[ON-SCREEN: Order book: 27% crude tankers, 35% LPG]\nThe order book stood at 27% for crude tankers and 35% for LPG carriers.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["NO GUIDANCE,", "RECORD QUARTER"],
+        "stats": [
+          {"label": "CONSOLIDATED PROFIT", "value": "₹1,309Cr", "tag": "DECLINED", "direction": "neutral"}
+        ],
+        "context_title": "Spot rates near record highs",
+        "context_stats": [
+          {"label": "MR TANKER RATES", "value": "~$50k/day", "sub": "near all-time high"},
+          {"label": "LPG RATES", "value": "$100k+/day", "sub": "near all-time high"}
+        ]
+      }
     }
   ]
 }
