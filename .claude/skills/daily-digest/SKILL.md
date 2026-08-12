@@ -101,15 +101,42 @@ same `state.json` into `docs/index.html` — a color-coded HTML view (green
 served by GitHub Pages. Run `build_table.py` first; `build_site.py` reads
 its output. Then:
 
+## 5. Generate today's shareable highlights
+
 ```bash
-git add digests/state.json digests/TABLE.md docs/index.html
+python3 scripts/todays_updates.py --date <that-date> > tmp/todays_updates.json
+```
+
+Deterministic — pulls today's newly-updated companies straight out of
+`digests/state.json` (anything whose latest quarter matches today's label).
+If it returns zero companies, skip this step entirely (nothing to write
+about).
+
+Otherwise spawn one `Agent` (subagent_type: **highlights-writer**, project
+agent in `.claude/agents/highlights-writer.md`, sonnet — this step needs
+better judgment than the per-company haiku writes, since it's picking which
+stories are actually notable across the whole day). Give it the companies
+list from `tmp/todays_updates.json` and destination
+`digests/highlights/<date>.json`.
+
+**This step exists to feed Instagram/YouTube content, so its output is
+public-facing in a way the rest of the pipeline isn't** — the agent's own
+instructions carry a hard rule about staying factual (no BEAT/MISS-style
+opinion language, no "credible guidance" framing) for exactly that reason.
+Don't relax this even if asked to make the copy punchier — see
+`CLAUDE.md`'s SEBI section for why.
+
+## 6. Commit
+
+```bash
+git add digests/state.json digests/TABLE.md docs/index.html digests/highlights/
 git commit -m "Concall digest for <date>: N companies (M new, K first-seen)"
 git push
 ```
 
-Only `state.json`, `TABLE.md`, and `docs/index.html` are committed —
-`digests/cells/` is scratch (gitignored, and `build_table.py` deletes
-processed files anyway).
+`digests/highlights/<date>.json` is committed (it's a dated archive of
+what got posted, not scratch); `digests/cells/` is not (gitignored, and
+`build_table.py` deletes processed files anyway).
 
 ## Known constraints
 

@@ -81,6 +81,19 @@ scripts/filter_new_companies.py                                   │
        digests/TABLE.md     (plain-Markdown view, committed + pushed)
        docs/index.html      (color-coded HTML view, served by GitHub Pages,
                               committed + pushed)
+                                       │
+                                       ▼
+                      scripts/todays_updates.py  (deterministic; pulls today's
+                                       │           newly-updated companies out
+                                       │           of state.json)
+                                       ▼
+              Agent (highlights-writer, sonnet, one call for the whole day)
+                                       │ picks 3-5 notable stories, writes
+                                       │ factual Instagram/YouTube Shorts copy
+                                       ▼
+       digests/highlights/<date>.json  (committed — see "Public content /
+                                         SEBI" below before touching this
+                                         agent's output rules)
 ```
 
 Two independent data sources feed each company's cells:
@@ -126,6 +139,35 @@ today shows up in today's digest, one that called today but files
 Thursday shows up Thursday's. Framed as "transcripts filed today," not
 "concalls held today," in all user-facing output.
 
+## Public content / SEBI
+
+`digests/highlights/<date>.json` feeds public posting (Instagram, YouTube
+Shorts) — this is the one place this pipeline's output is meant to reach a
+public audience rather than just the operator. That changes the legal
+posture: SEBI's Research Analyst Regulations, 2014 require registration
+(NISM-Series-XV certification + SEBI registration) for anyone publishing
+recommendations, price targets, or "opinions that facilitate a basis for
+investment purposes" **for compensation** — and SEBI's 2024-2025
+finfluencer enforcement has specifically targeted unregistered social-media
+financial content.
+
+The `verdict` field (`beat`/`missed`/etc.) used internally for
+`docs/index.html`'s color-coding is exactly that kind of opinion. It's
+fine to keep computing and displaying it site-side (informational, not
+optimized for reach), but `highlights-writer` deliberately never emits it
+or paraphrases of it — its copy is restricted to **factual restatement**
+("management guided X, delivered Y"), checked against a real precedent:
+concall.in (a funded, ~15k-user, monetized competitor) does the identical
+thing — their public concall summaries are organized by theme and
+strictly descriptive, no buy/sell/rating language anywhere.
+
+**If this pipeline is ever monetized**, the two honest paths are (a) keep
+public output factual-only as it is now, sell access to the verdict/
+guidance-track-record data as the paid differentiator, or (b) get NISM
+certified + SEBI RA registered if the scored/opinion version itself is
+what's being sold. Don't blur this line by making public copy "punchier"
+over time — that drift is exactly what the regulation targets.
+
 ## Scope / known gaps
 
 - NSE-listed only. BSE-only small/micro-caps aren't covered (BSE has an
@@ -138,11 +180,12 @@ Thursday shows up Thursday's. Framed as "transcripts filed today," not
 
 ## Data retention
 
-`digests/state.json`, `digests/TABLE.md`, and `docs/index.html` are the
-only things committed. Raw PDFs/`.txt` (`tmp/`) and per-company scratch
-cells (`digests/cells/`) are gitignored — regenerable working files, not
-worth the repo bloat of keeping forever. Daily history of the table itself
-lives in git log, not as separate dated files.
+`digests/state.json`, `digests/TABLE.md`, `docs/index.html`, and
+`digests/highlights/<date>.json` are committed. Raw PDFs/`.txt` (`tmp/`)
+and per-company scratch cells (`digests/cells/`) are gitignored —
+regenerable working files, not worth the repo bloat of keeping forever.
+`highlights/` is kept as dated files (unlike the table) specifically so
+there's a record of exactly what copy was posted publicly on a given day.
 
 ## Secrets
 
