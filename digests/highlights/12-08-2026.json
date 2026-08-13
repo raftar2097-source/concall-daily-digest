@@ -1,0 +1,101 @@
+{
+  "date": "12-08-2026",
+  "stories": [
+    {
+      "symbol": "LUPIN",
+      "company_name": "Lupin Limited",
+      "category": "quiet_change",
+      "headline": "Lupin beat Q1 targets but cut FY27 US revenue guidance to $1.1-1.2B from 'billion-plus'",
+      "instagram_caption": "Lupin's Q1 FY27 revenue grew 32% YoY with 30% EBITDA margins, beating expectations.\nManagement revised its FY27 US business guidance to $1.1-1.2B, down from the prior 'billion-plus, sustained' framing, citing new generic competition on Tolvaptan (Apotex, Teva) and pricing pressure on Mirabegron from Q2.\nFull-year EBITDA margin guidance was maintained at 25%.\nEx-US business grew over 20% across India, Europe and emerging markets.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: LUPIN — Q1 FY27]\nLupin's Q1 revenue grew 32% year-on-year, with EBITDA margins at 30% — a beat versus expectations.\n[ON-SCREEN: US GUIDANCE: 'billion-plus' -> $1.1-1.2B]\nBut management revised its FY27 US business guidance down to $1.1 to $1.2 billion, from the prior framing of sustaining 'billion-plus' revenue.\n[ON-SCREEN: WHY: Tolvaptan & Mirabegron competition]\nThe company cited new generic competition on Tolvaptan from Apotex and Teva, plus pricing pressure on Mirabegron starting Q2.\n[ON-SCREEN: FULL-YEAR MARGIN GUIDANCE: 25%, unchanged]\nFull-year EBITDA margin guidance stayed at 25%, and ex-US markets grew over 20%.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Lupin beat Q1 estimates...", "...then cut FY27 US guidance"],
+        "stats": [
+          {"label": "FY27 US GUIDANCE", "value": "$1.1-1.2B", "tag": "CUT", "direction": "neg"}
+        ],
+        "context_title": "Q1 FY27 snapshot",
+        "context_stats": [
+          {"label": "Q1 REVENUE GROWTH", "value": "32%", "sub": "YoY"},
+          {"label": "Q1 EBITDA MARGIN", "value": "30%", "sub": "FY guidance held at 25%"}
+        ]
+      }
+    },
+    {
+      "symbol": "VARROC",
+      "company_name": "Varroc Engineering Limited",
+      "category": "quiet_change",
+      "headline": "Varroc raised FY27 growth guidance to 20-25%, while flagging underlying organic growth of just 4%",
+      "instagram_caption": "Varroc Engineering raised its FY27 growth guidance to 20-25%, up from the prior mid-to-high teens range.\nThe revision follows a 29.9% nominal revenue beat in Q1 - but management noted underlying organic growth, excluding inflation pass-through, was only about 4%.\nEBITDA margin came in at 8.5%, down from 9.4% a year earlier, on one-time war-related and tooling costs described as recoverable.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: VARROC — Q1 FY27]\nVarroc Engineering's Q1 revenue grew 29.9% year-on-year in nominal terms.\n[ON-SCREEN: FY27 GUIDANCE: mid-to-high teens -> 20-25%]\nOn the back of that, management raised its full-year FY27 growth guidance to 20 to 25%, up from a prior mid-to-high-teens range.\n[ON-SCREEN: BUT: organic growth ~4%]\nBut management also disclosed that underlying organic growth - stripping out inflation-linked pass-through pricing - was only around 4%.\n[ON-SCREEN: EBITDA MARGIN: 8.5% vs 9.4% prior year]\nEBITDA margin came in at 8.5%, versus 9.4% a year earlier, which management attributed to one-time war-related and tooling costs.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Varroc raised growth guidance to 20-25%", "Organic growth: just 4%"],
+        "stats": [
+          {"label": "FY27 GROWTH GUIDANCE", "value": "20-25%", "tag": "RAISED", "direction": "pos"},
+          {"label": "Q1 ORGANIC GROWTH", "value": "~4%", "tag": "FLAT", "direction": "neutral"}
+        ],
+        "context_title": "Q1 FY27 numbers behind the headline",
+        "context_stats": [
+          {"label": "Q1 NOMINAL GROWTH", "value": "29.9%", "sub": "YoY, headline figure"},
+          {"label": "EBITDA MARGIN", "value": "8.5%", "sub": "vs 9.4% prior year"}
+        ]
+      }
+    },
+    {
+      "symbol": "BAJAJELEC",
+      "company_name": "Bajaj Electricals Limited",
+      "category": "miss",
+      "headline": "Bajaj Electricals targeted 8-10% quarterly growth, delivered 2.3%",
+      "instagram_caption": "Bajaj Electricals had targeted 8-10% quarterly revenue growth for Q1.\nActual growth came in at 2.3%, missing that range.\nConsumer Products grew just 1.7% versus an expected stronger bounce-back; Lighting Solutions grew 4.4%.\nEBIT margin improved to 6.6% from 2.5% a year earlier, tracking the company's 6-7% near-term margin guidance.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: BAJAJ ELECTRICALS — Q1 FY27]\nBajaj Electricals had targeted 8 to 10% quarterly revenue growth for this quarter.\n[ON-SCREEN: TARGET 8-10% vs ACTUAL 2.3%]\nActual revenue growth came in at just 2.3%, well below that range.\n[ON-SCREEN: Consumer Products +1.7%, Lighting +4.4%]\nConsumer Products, which management expected to bounce back, grew only 1.7%. Lighting Solutions grew 4.4%.\n[ON-SCREEN: EBIT MARGIN: 6.6% vs 2.5% last year]\nOn the positive side, EBIT margin improved to 6.6% from 2.5% a year earlier, in line with the company's 6-7% near-term margin guidance.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Bajaj Electricals targeted 8-10% growth", "Delivered 2.3%"],
+        "stats": [
+          {"label": "Q1 REVENUE GROWTH", "value": "2.3%", "tag": "MISS", "direction": "neg"}
+        ],
+        "context_title": "Q1 FY27 segment detail",
+        "context_stats": [
+          {"label": "TARGET GROWTH", "value": "8-10%", "sub": "non-committed"},
+          {"label": "EBIT MARGIN", "value": "6.6%", "sub": "vs 2.5% prior year"}
+        ]
+      }
+    },
+    {
+      "symbol": "IRMENERGY",
+      "company_name": "IRM Energy Limited",
+      "category": "beat",
+      "headline": "IRM Energy's Q1 EBITDA/SCM hit INR10, above its prior guided INR5-6 range",
+      "instagram_caption": "IRM Energy had previously guided EBITDA per SCM in the INR 5-6 range.\nQ1 FY27 EBITDA/SCM came in at INR 10, substantially ahead of that guidance.\nManagement attributed this to favourable sourcing this quarter and guided the next three quarters lower, at INR 7-8/SCM.\nRevenue grew 24% YoY to INR 326 crore; volumes grew 8% YoY, on track for the full-year 10-12% growth target.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: IRM ENERGY — Q1 FY27]\nIRM Energy had previously guided EBITDA per SCM of gas sold in the range of 5 to 6 rupees.\n[ON-SCREEN: GUIDED INR5-6 vs ACTUAL INR10]\nQ1 actual EBITDA per SCM came in at 10 rupees, well above that guided range.\n[ON-SCREEN: WHY: favourable sourcing this quarter]\nManagement said this was driven by favourable gas sourcing this quarter, and guided the next three quarters lower, at 7 to 8 rupees per SCM.\n[ON-SCREEN: REVENUE +24% YoY, VOLUME +8% YoY]\nRevenue grew 24% year-on-year to 326 crore rupees, with volumes up 8%, on track for the full-year 10 to 12% growth target.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["IRM Energy's EBITDA/SCM: INR10", "vs guided INR5-6"],
+        "stats": [
+          {"label": "Q1 EBITDA/SCM", "value": "INR 10", "tag": "BEAT", "direction": "pos"}
+        ],
+        "context_title": "Q1 FY27 numbers",
+        "context_stats": [
+          {"label": "REVENUE", "value": "INR326cr", "sub": "+24% YoY"},
+          {"label": "NEXT-QTR GUIDANCE", "value": "INR7-8/SCM", "sub": "EBITDA/SCM, next 3 qtrs"}
+        ]
+      }
+    },
+    {
+      "symbol": "GNFC",
+      "company_name": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
+      "category": "deflection",
+      "headline": "GNFC posted its second-highest quarterly profit ever but declined to give Q2 guidance",
+      "instagram_caption": "GNFC reported its second-highest quarterly profit in company history this quarter.\nIts fertiliser segment recovered sharply to INR 85 crore, reversing the pessimism management had flagged back in May.\nDespite the strong quarter, management declined to give Q2 guidance, citing ongoing volatility.\nCost-saving initiatives worth INR 250-300 crore (with A.T. Kearney) are progressing, with impact still pending.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: GNFC — Q1 FY27]\nGNFC posted its second-highest quarterly profit in the company's history this quarter.\n[ON-SCREEN: Fertiliser segment: INR85cr, reversing May pessimism]\nIts fertiliser segment recovered sharply to 85 crore rupees, a reversal from the cautious tone management struck back in May.\n[ON-SCREEN: Q2 guidance: not given]\nDespite that, when asked, management declined to give Q2 guidance, citing ongoing volatility.\n[ON-SCREEN: Cost savings target: INR250-300cr, pending]\nA cost-saving programme with A.T. Kearney, targeting 250 to 300 crore rupees, is still progressing, with its impact yet to show up in results.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["GNFC: 2nd-highest profit ever", "Declined to guide for Q2"],
+        "stats": [
+          {"label": "FERTILISER SEGMENT PROFIT", "value": "INR85cr", "tag": "DECLINED TO GUIDE", "direction": "neutral"}
+        ],
+        "context_title": "Q1 FY27 context",
+        "context_stats": [
+          {"label": "TDI COST SAVINGS", "value": "INR30-40k/MT", "sub": "from new CCPP steam ops"},
+          {"label": "COST-SAVING TARGET", "value": "INR250-300cr", "sub": "A.T. Kearney initiative, pending"}
+        ]
+      }
+    }
+  ]
+}
