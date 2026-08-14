@@ -194,6 +194,19 @@ over time — that drift is exactly what the regulation targets.
   keeps the text content), it doesn't fail the run — check the
   environment's setup script output before assuming the renderer itself
   broke.
+- **`scripts/todays_updates.py` matches on quarter label, which is
+  month-granular** (e.g. "Aug 2026"), not day-granular. On the *second or
+  later* run within the same calendar month, it returns every company
+  whose latest quarter is that month's label — including companies from
+  earlier runs that month, not just the run that just happened. First
+  surfaced 13-08-2026 (second run of the month; the script returned all
+  142 companies logged since 12-08-2026 instead of that day's 32). Until
+  the script itself is fixed (e.g. track filing date, not just quarter
+  label), whoever drives step 5 should filter `todays_updates.py`'s output
+  down to the symbols actually processed in that run (available from step
+  1.5's filtered manifest) before handing it to `highlights-writer` —
+  otherwise "today's highlights" can resurface a company already featured
+  on an earlier day this month.
 
 ## Data retention
 
