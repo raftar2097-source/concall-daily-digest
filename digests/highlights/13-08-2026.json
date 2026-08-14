@@ -1,0 +1,101 @@
+{
+  "date": "13-08-2026",
+  "stories": [
+    {
+      "symbol": "BOSCHLTD",
+      "company_name": "Bosch Limited",
+      "category": "beat",
+      "headline": "Bosch guided 'flattish' growth in May, Q1 revenue rose 22% instead",
+      "instagram_caption": "Bosch Limited guided flattish growth for the quarter back in May.\nActual Q1: revenue up 22% YoY, EBITDA up 28% YoY, margins improved to 14%.\nPower Solutions outperformed the market across segments; Aftermarket rebounded to 9.6% growth.\nManagement now guides 8% growth for the next quarter.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: BOSCH LIMITED - Q1 FY27]\nIn May, Bosch management guided flattish growth for the quarter.\n[ON-SCREEN: GUIDANCE: FLATTISH]\nThe actual Q1 numbers came in well above that.\n[ON-SCREEN: REVENUE +22% YoY | EBITDA +28% YoY]\nRevenue grew 22% year-on-year, EBITDA grew 28%, and margins improved to 14%.\n[ON-SCREEN: MARGIN: 14%]\nPower Solutions outperformed the market across segments, and Aftermarket sales rebounded to 9.6% growth.\nManagement is now guiding 8% growth for the next quarter.\n[ON-SCREEN: NEXT QTR GUIDE: 8% GROWTH]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Bosch guided 'flattish' Q1", "Delivered 22% growth instead"],
+        "stats": [
+          {"label": "Q1 REVENUE GROWTH", "value": "22% YoY", "tag": "BEAT", "direction": "pos"}
+        ],
+        "context_title": "EBITDA growth outpaced revenue",
+        "context_stats": [
+          {"label": "EBITDA GROWTH", "value": "28% YoY", "sub": "Margin expanded to 14%"},
+          {"label": "NEXT QTR GUIDE", "value": "8% growth", "sub": "Management guidance for Q2"}
+        ]
+      }
+    },
+    {
+      "symbol": "GPIL",
+      "company_name": "Godawari Power And Ispat Limited",
+      "category": "miss",
+      "headline": "Godawari Power Q1 EBITDA margin at 19.1%, well below 24-25% FY27 guidance",
+      "instagram_caption": "Godawari Power And Ispat had guided a 24-25% EBITDA margin for FY27.\nQ1 came in at 19.1%, pressured by input cost spikes after the West Asia crisis.\nThe integrated steel plant has been moved to abeyance indefinitely.\nCRM relocation delayed to December 2027 (from March 2027); capex raised to Rs.1,100 crores.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: GODAWARI POWER AND ISPAT - Q1 FY27]\nGodawari Power had guided a 24 to 25% EBITDA margin for FY27.\n[ON-SCREEN: FY27 GUIDANCE: 24-25%]\nQ1 actual margin came in at just 19.1%, hit by input cost spikes after the West Asia crisis.\n[ON-SCREEN: Q1 ACTUAL: 19.1%]\nManagement also disclosed the integrated steel plant has been moved to abeyance indefinitely.\nThe CRM relocation has been delayed to December 2027, pushed from March 2027, with capex raised to Rs.1,100 crores.\n[ON-SCREEN: CRM DELAYED TO DEC 2027]\nPellet production guidance was also revised lower, and one plant was shut due to gas pricing.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["GPIL guided 24-25% margin", "Delivered just 19.1% in Q1"],
+        "stats": [
+          {"label": "Q1 EBITDA MARGIN", "value": "19.1%", "tag": "MISS", "direction": "neg"}
+        ],
+        "context_title": "Multiple project delays disclosed",
+        "context_stats": [
+          {"label": "FY27 GUIDANCE", "value": "24-25%", "sub": "Original margin target"},
+          {"label": "CRM RELOCATION", "value": "Dec 2027", "sub": "Delayed from Mar 2027"}
+        ]
+      }
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "company_name": "Blue Star Limited",
+      "category": "miss",
+      "headline": "Blue Star's UCP segment margin fell to 2.9% vs 8-8.5% target; guidance cut to 6.5%",
+      "instagram_caption": "Blue Star had targeted an 8-8.5% EBIT margin for its Segment II (UCP) business.\nQ1 actual margin came in at just 2.9%, after only 5% of a warranted 13% price hike was passed on.\nFY27 UCP margin guidance has now been revised down to a 6.5% minimum.\nData center MEP remained strong: Rs.1,500 crore of Q1 inflow, targeting Rs.3,000 crore annually.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: BLUE STAR LIMITED - Q1 FY27]\nBlue Star had targeted an 8 to 8.5% EBIT margin for its UCP segment.\n[ON-SCREEN: SEGMENT II TARGET: 8-8.5%]\nQ1 actual margin came in at just 2.9%.\n[ON-SCREEN: Q1 ACTUAL: 2.9%]\nManagement said only 5% of a warranted 13% price increase was actually passed on, and heavy promotional spend was needed due to a late summer.\nFY27 UCP margin guidance has now been revised down to a 6.5% minimum, from the earlier 8 to 8.5%.\n[ON-SCREEN: FY27 GUIDANCE CUT TO 6.5%]\nOne bright spot: data center MEP orders stayed strong, with Rs.1,500 crore of Q1 inflow and a Rs.3,000 crore annual target.\nManagement expects recovery from Q3 onward.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Blue Star targeted 8-8.5% margin", "UCP segment delivered 2.9%"],
+        "stats": [
+          {"label": "SEGMENT II EBIT MARGIN", "value": "2.9%", "tag": "MISS", "direction": "neg"}
+        ],
+        "context_title": "FY27 margin guidance also cut",
+        "context_stats": [
+          {"label": "FY27 GUIDANCE", "value": "6.5% min", "sub": "Down from 8-8.5% prior"},
+          {"label": "PRICE HIKE PASSED", "value": "5%", "sub": "Of 13% warranted increase"}
+        ]
+      }
+    },
+    {
+      "symbol": "CMSINFO",
+      "company_name": "CMS Info Systems Limited",
+      "category": "quiet_change",
+      "headline": "CMS Info cut its FY27 revenue guidance while raising its margin guidance",
+      "instagram_caption": "CMS Info Systems lowered its FY27 services revenue guidance to Rs.2,650-2,750 crores, from Rs.2,700-2,800 crores.\nIn the same breath, EBITDA margin guidance was raised to 27%, from 25-26%.\nQ1 services revenue hit a record Rs.625 crores but fell short of the Rs.650 crore internal target, attributed to a worst-in-decade currency supply crunch.\nMargin still expanded 170 bps sequentially.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: CMS INFO SYSTEMS - Q1 FY27]\nCMS Info Systems moved two guidance numbers in opposite directions on the same call.\nFY27 services revenue guidance was lowered, to Rs.2,650 to 2,750 crores from Rs.2,700 to 2,800 crores.\n[ON-SCREEN: REVENUE GUIDANCE: CUT]\nBut EBITDA margin guidance was raised, to 27% from 25 to 26%.\n[ON-SCREEN: MARGIN GUIDANCE: RAISED TO 27%]\nQ1 services revenue hit a record Rs.625 crores, but still missed the company's own Rs.650 crore target, which management attributed to a worst-in-decade currency supply crunch.\nMargin still expanded 170 basis points sequentially.\n[ON-SCREEN: Q1 SERVICES REVENUE: RS.625 CR]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["CMS cut revenue guidance", "But raised margin guidance"],
+        "stats": [
+          {"label": "FY27 REVENUE GUIDE", "value": "2650-2750 Cr", "tag": "CUT", "direction": "neg"},
+          {"label": "FY27 MARGIN GUIDE", "value": "27%", "tag": "RAISED", "direction": "pos"}
+        ],
+        "context_title": "Q1 services revenue missed internal target",
+        "context_stats": [
+          {"label": "Q1 SERVICES REVENUE", "value": "Rs.625 Cr", "sub": "vs Rs.650 Cr target"},
+          {"label": "MARGIN QOQ", "value": "+170 bps", "sub": "Sequential expansion"}
+        ]
+      }
+    },
+    {
+      "symbol": "SPECIALITY",
+      "company_name": "Speciality Restaurants Limited",
+      "category": "deflection",
+      "headline": "Speciality Restaurants declined to repeat its Rs.600 crore FY27 revenue target",
+      "instagram_caption": "Speciality Restaurants had previously guided a Rs.600 crore FY27 revenue target.\nOn this call, management declined to repeat that number, citing only that the company is 'working hard' and pointing to a Q3 opportunity.\nQ1 same-store-sales growth came in at 11.35%, up from 2.25% in Q4.\nGross margin expanded to 71.1%.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: SPECIALITY RESTAURANTS - Q1 FY27]\nSpeciality Restaurants had previously guided a Rs.600 crore revenue target for FY27.\n[ON-SCREEN: PRIOR TARGET: RS.600 CR FY27]\nOn this call, when asked, management did not repeat that number.\nThe response stayed vague, citing only that the company is 'working hard' and pointing to an opportunity in Q3.\n[ON-SCREEN: TARGET NOT REPEATED]\nMeanwhile, the actual Q1 numbers were strong: same-store-sales growth hit 11.35%, up sharply from 2.25% in Q4.\n[ON-SCREEN: Q1 SSSG: 11.35%]\nGross margin expanded to 71.1%.\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Speciality dodged its own", "Rs.600 Cr FY27 target"],
+        "stats": [
+          {"label": "Q1 SSSG", "value": "11.35%", "tag": "DECLINED TO GUIDE", "direction": "neutral"}
+        ],
+        "context_title": "Prior Rs.600 Cr FY27 target not repeated",
+        "context_stats": [
+          {"label": "Q4 SSSG", "value": "2.25%", "sub": "Prior quarter comparison"},
+          {"label": "GROSS MARGIN", "value": "71.1%", "sub": "Q1 FY27"}
+        ]
+      }
+    }
+  ]
+}

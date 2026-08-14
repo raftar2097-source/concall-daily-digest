@@ -1,4 +1,19 @@
 {
+  "ADSL": {
+    "company_name": "Allied Digital Services Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 revenue guidance: 20-25% growth. EBITDA margin targets: 12.5-13% short-term, 13-15% long-term. Strong pipeline including Rs. 2,000+ crore Maharashtra opportunities and pending Rs. 150-200 crore Mumbai government project. Government business expected rebound after Q4 pricing headwinds. Achieved Rs. 968 crore FY26 revenue.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27: Rs. 260 crore (+19% YoY), at lower end of guided 20-25% range. EBITDA margin 10%, below 12.5-13% target due to leadership restructuring and AI investments. Achieved Rs. 1,000 crore trailing 12-month milestone and cleared auditor qualifications. Orders Rs. 120+ crore but government tenders delayed.",
+        "verdict": "partial"
+      }
+    ]
+  },
   "AHCL": {
     "company_name": "Anlon Healthcare Limited",
     "quarters": [
@@ -11,6 +26,36 @@
         "quarter": "Aug 2026",
         "summary": "FY27 revenue guidance 350-400 crore (vs 380-400 prior); EBITDA margin 25-27% (vs 25-30%). Q1 margin fell to 17% from 2-3x raw material inflation and Remember India acquisition integration. Acquired formulations company for FDF entry; expects margin recovery to 25% by Q2-Q3. Integration progressing.",
         "verdict": "partial"
+      }
+    ]
+  },
+  "AJAXENGG": {
+    "company_name": "Ajax Engineering Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management guided for mid-to-early double-digit volume growth in FY27, expecting stronger H2 (60% of revenue typical). Long-term EBITDA margin target remains 13-15%. UDAAN targeting 2-3x FY26's 202 units. Export growth expected at 20-25%. FY26 ended with 73.5% market share and 2% price increase taken in Q4.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 revenue grew 1.7% YoY despite 27% industry decline; AJAX declined 21%, gaining market share to 75.1%. EBITDA margin 12.5%, below 13-15% target. Management evaluating another price hike in Q2. UDAAN sold 121 units in Q1. Facing headwinds from rising input costs and contractor payment delays, but improving non-SLCM and export momentum.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "ALLCARGO": {
+    "company_name": "Allcargo Logistics Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management guided for EBITDA and PBT growth ahead of revenue, margin expansion through pricing discipline (GPI, metro congestion charges, AER charges), and optimistic Q1 FY27 outlook. Cautious near-term stance due to geopolitical risks. Allcargo Global listing expected in ~1 month. Integration now largely complete, positioning for profitable growth.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 delivered well ahead of May guidance: EBITDA surged 39% (vs 11% revenue growth), Express volumes +6.7%, yield +6.4%, swinging to INR14 crore PAT. Consolidated EBITDA margin ~13%, though Express at 6.2% (targeting 7.5% this year). Service quality and pricing discipline proving effective in commanding market growth.",
+        "verdict": "beat"
       }
     ]
   },
@@ -69,6 +114,21 @@
       }
     ]
   },
+  "AUROPHARMA": {
+    "company_name": "Aurobindo Pharma Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: double-digit revenue growth, EBITDA margins north of 21%. Lannett acquisition expected to close early Q2. TheraNym Unit 1 revenues starting 2028, Unit 2 from 2031. Europe targeting double-digit growth. Biosimilar portfolio projected to reach 7-8 products in EU/growth markets by 2030, with 2-3 potential US approvals.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "FY27 targets: double-digit revenue growth, EBITDA margins north of 21%, absolute EBITDA over Rs. 8,000 crores. Q1 beat\u201416% revenue growth exceeded guidance; 21% EBITDA margin met north-of-21% target in Q1. Lannett acquisition closed ahead of schedule. Biosimilar US filings imminent; TheraNym Unit 1 revenues from 2028.",
+        "verdict": "beat"
+      }
+    ]
+  },
   "AVALON": {
     "company_name": "Avalon Technologies Limited",
     "quarters": [
@@ -91,6 +151,21 @@
         "quarter": "Aug 2026",
         "summary": "Targeted 8-10% quarterly growth (non-committed); delivered 2.3%, falling short. Consumer Products' expected bounce-back materialized at 1.7% growth, but overall revenue missed targets. EBIT margin improved to 6.6% vs. 2.5% prior year, tracking margin guidance of 6-7% near-term and path to 10% later. Lighting Solutions grew 4.4%. BLDC fan challenge remains unresolved despite continued focus.",
         "verdict": "partial"
+      }
+    ]
+  },
+  "BECTORFOOD": {
+    "company_name": "Mrs. Bectors Food Specialities Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 targets: mid-teens growth, mid-teens exports, bakery mid-teens. EBITDA margin goal 14% by Q4; 15-16% by FY30. Revenue target INR4,000 cr by FY30. Key headwinds: ~3% commodity inflation, West Asia disruptions, export incentive freeze. Mitigation via pricing and Project IMPACT cost savings.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue INR548.7 cr (16% YoY), exceeding prior mid-teens guidance; EBITDA margin 13.1% (80 bps YoY improvement). Biscuits 15.7%, bakery 17.5%, exports high-double-digit despite tariffs/logistics. FY27 guidance: mid-teens growth (17-19%), 14% EBITDA by Q4. Q2 faces peak inflation; recovery expected Q3-Q4.",
+        "verdict": "beat"
       }
     ]
   },
@@ -135,6 +210,36 @@
       {
         "quarter": "Aug 2026",
         "summary": "Reaffirmed FY27 targets through better execution: Nellore Boards plant on track for Q4 commissioning, Hyderabad facility approved (Rs. 167cr capex). Quarterly acceleration\u2014EBITDA margins expanded 420bps vs 380bps prior quarter. Roofs hit record Rs. 517cr. Parador recovery underway with 20-30M EUR upside, 300-400bps margin uplift from BCG.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "BLUESTARCO": {
+    "company_name": "Blue Star Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Cautiously optimistic on FY27; summer season picking up from April 13th. Segment II margins: target 8-8.5%, Segment I: 7-7.5%. RAC industry growth: 18-20% CAGR through 2030. Data center MEP market strong; Blue Star targeting expanded presence. Management believes price increases will be passable despite commodity headwinds and war-related uncertainties.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 fell short significantly; segment II EBIT margins collapsed to 2.9% vs targeted 8-8.5%. Only passed 5% of warranted 13% price increase; late summer and pricing pressure forced heavy promotional spend. Revised FY27 UCP margin guidance: 6.5% minimum (down from 8-8.5%). Data center MEP strong: Rs.1,500 Crore Q1 inflow, targeting Rs.3,000 Crore annually. Expects recovery Q3 onward from product rejig and cost reduction.",
+        "verdict": "missed"
+      }
+    ]
+  },
+  "BOSCHLTD": {
+    "company_name": "Bosch Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: cautiously optimistic but flattish outlook for most segments due to West Asia geopolitical risks. Emphasized content-per-vehicle increases and operational excellence through cost management and localization. Joint ventures in advanced air systems and e-axles to address new market opportunities. Management noted capacity to ramp up if required.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 delivered 22% revenue growth and 28% EBITDA growth\u2014substantially exceeding May's flattish guidance. EBITDA margins improved to 14%. Power Solutions significantly outperformed market across segments. Aftermarket rebounded to 9.6% growth. Management guides 8% growth for next quarter; Bosch Chassis integration progressing.",
         "verdict": "beat"
       }
     ]
@@ -239,6 +344,21 @@
       }
     ]
   },
+  "CMSINFO": {
+    "company_name": "CMS Info Systems Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY2027 guidance: services revenue Rs.2,700\u20132,800 crores (17\u201321% growth); total revenue Rs.2,800\u20132,900 crores (13\u201317% growth). EBITDA margin targeting 25% range. Strong Rs.2,000-crore order book featuring marquee wins from SBI, ICICI, and HDFC over multi-year terms. Capex normalizing to Rs.100\u2013125 crores.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "FY27 services guidance Rs.2,650\u20132,750 crores (from Rs.2,700\u20132,800); total revenue Rs.2,750\u20132,850 crores (from Rs.2,800\u20132,900). EBITDA margin raised to 27% (from 25\u201326%). Q1 services revenue hit record Rs.625 crores but fell short of Rs.650 target by Rs.25 crores, attributed to worst-in-decade currency supply crunch. Margin expanded 170 bps QoQ.",
+        "verdict": "partial"
+      }
+    ]
+  },
   "COHANCE": {
     "company_name": "Cohance Lifesciences Limited",
     "quarters": [
@@ -251,6 +371,21 @@
         "quarter": "Aug 2026",
         "summary": "Q1 FY27 confirmed as weakest quarter (\u201323% YoY), validating May guidance. Restocking order now received for destocked molecule; commercial products on track Q2\u2013Q3. Sapala grew 2.5x. H2 growth expected year-on-year. NJ Bio losses persist (INR 328M). USFDA issued Form 483 on Pashamylaram facility (five observations, none data-integrity related).",
         "verdict": "met"
+      }
+    ]
+  },
+  "CROMPTON": {
+    "company_name": "Crompton Greaves Consumer Electricals Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Q4 FY26 revenue Rs. 2,283 Cr (11% YoY); EBITDA margins at 10%. Lighting grew industry-leading 14%, BLDC 30%+. Solar rooftop Rs. 500 Cr order book with 5,000+ homes executed; wires expanding nationally. Pricing actions (7-8% in fans) offsetting inflation. Management guided margins to improve as geopolitical turbulence subsides.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 revenue Rs. 2,235 Cr (11.8% YoY); EBITDA margins 10% with 20 bps expansion. BLDC accelerated to 45%; water heaters now clear GT market leader. Pricing covered ~80% inflation. However, unforeseen Rs. 200 Cr supply disruptions offset gains; margin expansion underwhelmed prior guidance. Brand transformation investor event Aug 20; Rs. 350 Cr greenfield capex planned.",
+        "verdict": "partial"
       }
     ]
   },
@@ -314,6 +449,21 @@
       }
     ]
   },
+  "DELHIVERY": {
+    "company_name": "Delhivery Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 closure: 10,400 Cr revenue, 1 billion parcels, 2M tonnes PTL. Guided express margins 16-18% (at upper end), PTL to continue 1.5-2pp annual margin expansion toward 16-18% long-term target. SCS turned profitable (79 Cr EBITDA). New initiatives investment 130-160 Cr for FY27. Management declined detailed FY27 volume guidance.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1FY27: 3,000 Cr revenue (+28% YoY), 322M express packages (+55% with Ecom), 542k PTL tonnes (+18%). Express margins 13.1% vs 16-18% target\u2014temporary wage/fuel headwinds (~30-35 Cr normalized impact). Guided maintain 16-18% express, PTL exit 15-15.5%. Delhivery Local accelerating ahead of plan. Management confident FY27 margin trajectory intact.",
+        "verdict": "partial"
+      }
+    ]
+  },
   "DIGISPICE": {
     "company_name": "DigiSpice Technologies Limited",
     "quarters": [
@@ -351,6 +501,21 @@
         "quarter": "Aug 2026",
         "summary": "Volume guidance revised down to 575,000 tons from 700,000-target, with margins now recovering only in H2 versus earlier expectation of 13-14% full year. Paint business upgraded to Rs. 800-1,000 crore target. T.I.S. and valves progressing. Domestic demand remains depressed; management views current trough as cyclical, not structural.",
         "verdict": "partial"
+      }
+    ]
+  },
+  "ELLEN": {
+    "company_name": "Ellenbarrie Industrial Gases Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27: no specific guidance; direction positive. Ulluberia 2 (220 TPD) commissioned, East India on-site plant (expected Q2) to drive growth. Long-term targets: 20% revenue CAGR, 40% EBITDA margins. Argon pricing expected recovery from Q3 lows. Tone: cautiously optimistic on India's manufacturing growth despite macro uncertainty.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 met prior guidance: 18% YoY revenue growth from plant ramp-ups; 39% EBITDA margin nearing 40% target. Ulluberia 2 and Kurnool scaling as guided. East India on-site (320 TPD) commissioning Q2. Capex 250 crore FY27, 200 crore FY28 for North/West merchant plants. No annual guidance; maintains 20% CAGR, 40% margin targets.",
+        "verdict": "met"
       }
     ]
   },
@@ -410,6 +575,21 @@
       {
         "quarter": "Aug 2026",
         "summary": "Standalone revenue 57% YoY growth, but consolidated EBITDA slipped to INR 21.9 crores loss from Q4 breakeven, blamed on Hyderabad parallel costs and depreciation step-in. Management reaffirmed core guidance: Tritium 3x growth, consolidated EBITDA breakeven Q2-Q3 FY27, Tritium bookings doubled to above USD 20 million. Export growth (8%) trails 20% target; BESS tracking INR 50 crores goal. Margin recovery expected as transition costs phase out.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "FINPIPE": {
+    "company_name": "Finolex Industries Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "Sub-15% EBITDA margin guidance for FY27; targeting higher single-digit to low double-digit volume growth. Q4 EBITDA margin nearly doubled to 25% as elevated PVC prices from March geopolitical disruptions strengthened realizations. Structural demand drivers remain intact. Strong liquidity: INR2,563 crores cash.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Maintained sub-15% EBITDA margin guidance; declined to provide full-year volume outlook citing extreme PVC volatility. Q1 volume plunged 27% YoY\u2014substantially missing prior growth target\u2014though 12% EBITDA margin held within guidance. MIP and tariff removal on July 15 stabilized prices; volumes recovered in July but management remains cautious.",
         "verdict": "partial"
       }
     ]
@@ -519,6 +699,21 @@
       }
     ]
   },
+  "GMMPFAUDLR": {
+    "company_name": "GMM Pfaudler Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management deferred guidance, planning to return with three-year strategy in Aug/Sept pending macro clarity. Aspires to 15-18% EBITDA margins (scaled to 15% minimum) from current 11.4-11.5%, expecting improvement through European restructuring. 50% of order intake from non-traditional industries. Order backlog up 34%, supported by free cash flow of INR 367 crores.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 achieved 16% revenue growth but EBITDA fell 7% YoY, below May's expectation to maintain or grow margins. EBITDA margin compressed to ~10% by pricing pressure and restructuring investments. Management aspires to 15% target but deferred specific FY27-28 guidance pending consistent results. Order backlog INR 2,289 crores (up 20% YoY) with ~90% convertible within 10-12 months.",
+        "verdict": "missed"
+      }
+    ]
+  },
   "GNFC": {
     "company_name": "Gujarat Narmada Valley Fertilizers and Chemicals Limited",
     "quarters": [
@@ -574,6 +769,21 @@
       }
     ]
   },
+  "GPIL": {
+    "company_name": "Godawari Power And Ispat Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: 6,000+ crores revenue; 24\u201325% EBITDA margin at current market levels. Beneficiation plant, CRM complex, BESS, and integrated steel plant all on track for FY27\u2013FY28 commissioning. Mining guidance 3.4 MT net usable; pellet 4.0 MT. Successfully commissioned 2-MW pellet plant December 2025.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 EBITDA margin 19.1% (well below 24\u201325% FY27 guidance), down from input cost spikes post-West Asia crisis. Integrated steel plant moved to abeyance indefinitely; CRM relocated to Maharashtra, delayed to December 2027 (vs March 2027), capex raised to INR 1,100 crores; BESS delayed to March 2028. Pellet production revised lower; one plant shut due to gas pricing. Mining constrained by overburden dumping space.",
+        "verdict": "missed"
+      }
+    ]
+  },
   "GREAVESCOT": {
     "company_name": "Greaves Cotton Limited",
     "quarters": [
@@ -616,6 +826,21 @@
         "quarter": "Aug 2026",
         "summary": "Q1 FY27 marks strongest quarter: INR 633 crores revenue (+28% YoY), 30.30% EBITDA margin (+544 bps), INR 133 crores PAT (+60%). Management attributed exceptional margins to structural product mix shifts toward high-value specialty/architectural products and D2C expansion. Reaffirmed FY '27 guidance.",
         "verdict": "beat"
+      }
+    ]
+  },
+  "GSFC": {
+    "company_name": "Gujarat State Fertilizers & Chemicals Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY26 delivered +15% sales growth to INR10,827 cr, +13% PBT. Fertilizer volume +12% to 22.31 LMT with highest 5-year production. Industrial Products achieved highest 4-year profitability. Q1 FY27 outlook: fertilizer navigating raw material volatility with 10% NBS rate uplift supporting kharif; IP segment mixed with caprolactam-benzene spreads potentially recovering but realizations under pressure.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Filed Aug 13, 2026 for Q1 FY27 call held same day (quarter ended June 30, 2026). Provided file contains only regulatory notice with audio link; full transcript content not available. Cannot assess actual results or new guidance.",
+        "verdict": null
       }
     ]
   },
@@ -675,6 +900,21 @@
       {
         "quarter": "Aug 2026",
         "summary": "Provides FY27 guidance: 14-16% revenue, 25-30% EBITDA growth\u2014concrete vs prior vagueness. Q1 pharma grew YoY despite planned shutdowns; Animal Health scaled to ~100 crores; Personal Care launched. FDA remediation progressing toward year-end re-inspection; positioned for accelerating recovery post-remediation.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "HINDALCO": {
+    "company_name": "Hindalco Industries Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Novelis affirms $600/ton long-term EBITDA guidance despite Oswego fire; accelerating $350\u2013400M cost-reduction program to FY28. India guided downstream aluminum near $250/ton normalized, copper earnings INR600\u2013700 crores quarterly. Alumina sales ~170 KT expected; Oswego Hot Mill restart imminent.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Beat prior guidance: delivered record aluminum EBITDA USD2,331/ton, copper record INR918 crores, cost savings accelerated USD225M. FY27 hedging 29% at USD3,004/ton. Aditya expansions progressing; first 180-pot smelter expected December 2027. Novelis $600/ton long-term guidance reaffirmed; Bay Minette on track.",
         "verdict": "beat"
       }
     ]
@@ -809,6 +1049,21 @@
       }
     ]
   },
+  "JGCHEM": {
+    "company_name": "J.G.Chemicals Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Dahej Phase 1 (16,500 MTA) targeting November 2026 commissioning with INR100 crore capex; projects INR300-400 crore revenue and 11-12% EBITDA at full capacity. Company expects consolidated EBITDA margins to expand toward 13-14% range through value-added product portfolio. Double-digit volume growth achieved in FY26; demand momentum expected to sustain into FY27.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 beat expectations: revenue up 44.8% YoY to INR315.7 crore, EBITDA margin 11.5% above prior 10-11% band. Dahej Phase 1 confirmed November commissioning with same INR300-400 crore revenue, 11-12% margin targets. Consolidated margin guidance raised to 14-15% by FY29. Three new specialty products launched; cost optimization driving incremental margin support.",
+        "verdict": "beat"
+      }
+    ]
+  },
   "JISLDVREQS": {
     "company_name": "Jain Irrigation Systems Limited",
     "quarters": [
@@ -854,6 +1109,16 @@
       }
     ]
   },
+  "KNACK": {
+    "company_name": "Knack Packaging Limited",
+    "quarters": [
+      {
+        "quarter": "Aug 2026",
+        "summary": "New manufacturing facility on track for October 2027 launch, expanding installed capacity from ~48,000 to 70,000 MT per annum. Pinch-bottom bags rising toward 23% of mix; two INR 20-crore machines installed. Management expects sustained growth using rented interim capacity until new plant starts. Established in 74 countries; Cargill represents ~12% revenue. Q1 FY27: 40% revenue and 53% EBITDA growth.",
+        "verdict": null
+      }
+    ]
+  },
   "LUPIN": {
     "company_name": "Lupin Limited",
     "quarters": [
@@ -895,6 +1160,21 @@
       {
         "quarter": "Aug 2026",
         "summary": "Q1 significantly beat prior guidance: 23% revenue growth vs. high-teens implied requirement; 25% EBITDA growth vs. high-teens target; 11% India volume vs. guided high single-digit. Parachute delivered 10% volume vs. expected modest growth. Management reaffirms full-year targets: INR15,000+ crores revenue, high-teens EBITDA (aspiring 20%) with greater confidence. Foods 43% growth; premium/digital portfolio scaling.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "MOTHERSON": {
+    "company_name": "Samvardhana Motherson International Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Key guidance: FY27 capex at INR 6,000 crores \u00b110% (50-50 growth/maintenance split). Third facility for consumer electronics commissioned Q3 FY27. Aerospace orderbook at USD 1.6B with 20% growth. Nexon/Yutaka acquisitions on track for H1 completion. Leverage at record low 0.8x. EV programs comprise 22% of orderbook. Emphasizes disciplined execution navigating elevated commodities and geopolitical pressures while scaling emerging businesses.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 delivered highest-ever quarterly revenue (17% YoY), rare sequential gain breaking historical Q1 decline pattern\u2014beat prior guidance. FY27 capex reaffirmed INR 6,000 crores \u00b110%. Consumer electronics GF3 on track Q3 FY27 with INR 65B capex for 40M units annually. Acquisitions closed on schedule (Nexans, Yutaka July; Autocruis announced). Aerospace orderbook grew 17% since FY26 end. Normalized PAT +55% YoY.",
         "verdict": "beat"
       }
     ]
@@ -949,6 +1229,21 @@
       }
     ]
   },
+  "OLAELEC": {
+    "company_name": "Ola Electric Mobility Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guided Q1 FY27: 40,000\u201345,000 orders, \u20b9500\u2013550 crore revenue (2x Q4). OpEx toward \u20b9350 crore; EBITDA breakeven achievable at 20,000\u201325,000 units monthly. Full 6 GWh Gigafactory by end-quarter; complete vehicle portfolio transitioning to own cells by September.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Revenue \u20b9455 crore missed \u20b9500\u2013550 guidance; orders 44,000 within range. Declined formal FY27 guidance; OpEx target \u20b9300\u2013325 crore, margins 30\u201332%. Standout: 97% volume growth vs. 17% industry; market share 5.1% to 8.4%. Signed Mahashakti MoU (20 GWh/5-year), pivoted to dealer channel live 4 Sept.",
+        "verdict": "partial"
+      }
+    ]
+  },
   "ONGC": {
     "company_name": "Oil & Natural Gas Corporation Limited",
     "quarters": [
@@ -989,6 +1284,21 @@
       }
     ]
   },
+  "PARAGMILK": {
+    "company_name": "Parag Milk Foods Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Management guided new age business to reach 20-25% of revenues over 3-5 years, currently at 10%. Cheese capacity increase planned from 60 to 80 metric tons. Core categories grew 8% by volume. Despite 15% milk inflation, gross margins expanded to 28% through pricing and mix.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 revenue INR945 crores (11% YoY), 3% volume growth. New age business surged 59% YoY, now 13% of revenue vs 10% last year\u2014tracking prior guidance. Core category volumes declined 2% (B2B weakness offset by B2C growth). Cheese capacity doubled to 120 metric tons by March 2028.",
+        "verdict": "partial"
+      }
+    ]
+  },
   "PGEL": {
     "company_name": "PG Electroplast Limited",
     "quarters": [
@@ -1000,6 +1310,21 @@
       {
         "quarter": "Aug 2026",
         "summary": "Q1 FY27 revenues INR2,034 crores (+35.2% Y-o-Y), first time crossing INR2,000 crores. EBITDA margin 7.7%, tracking toward 8% full-year aspiration. Washing machine surged 67.2% (vs. 30-35% May guidance). Room AC grew 38%. Compressor mass production December-January; refrigerator Q4 FY27.",
+        "verdict": "beat"
+      }
+    ]
+  },
+  "PGIL": {
+    "company_name": "Pearl Global Industries Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Targets INR 6,000 crores revenue by FY28 via 12-14% CAGR. EBITDA margin trajectory 10-12% range starting FY27. Capacity at 101 million pieces; INR 200-250 crores FY27 capex planned. Guatemala targeting FY27 breakeven; India-UK FTA and EU FTA driving new business momentum.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 hit INR 1,528 crores revenue (24.5% growth) with 10.7% EBITDA margin, outpacing May's 10% baseline guidance. Management maintaining FY27 double-digit EBITDA target, eyeing earlier-than-planned INR 6,000 crores FY28 milestone. Tariff removal enabled volume surge; Bangladesh capex on track for September completion.",
         "verdict": "beat"
       }
     ]
@@ -1034,6 +1359,21 @@
       }
     ]
   },
+  "PREMIERENE": {
+    "company_name": "Premier Energies Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 capex INR 5,100 crores planned for cells, ingots/wafers, batteries, inverters. Capacity growth to 16.75 GVA (transformers) by July 2026. Order book INR 14,010 crores. Cell pricing stable at 13.5\u201314 US cents. Management declined specific margin guidance, citing commitment to making 'no futuristic statements,' but affirmed current order book priced consistent with prior-year levels; expected operating leverage from capacity ramp-up.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue INR 2,508 crores, up 34% YoY\u2014outpacing prior quarter's 20.7% growth trajectory. Margins remained steady at 18.8% PAT/30.3% EBITDA despite commodity cost pressures. Order book expanded to INR 15,000 crores. Seetharampur module plant fully operational as guided; 7 GW TOPCon cell line in advanced commissioning with trials imminent. Reaffirms 29\u201330% EBITDA margin target (\u00b1100\u2013150 bps) via operating leverage. No FY27 revenue guidance.",
+        "verdict": "beat"
+      }
+    ]
+  },
   "PRINCEPIPE": {
     "company_name": "Prince Pipes and Fittings Limited",
     "quarters": [
@@ -1056,6 +1396,21 @@
         "quarter": "Aug 2026",
         "summary": "Earnings call held August 6, 2026 for Q1 (ended June 30). Transcript content not available in provided filing. Forward guidance and detailed results unavailable for summary.",
         "verdict": null
+      }
+    ]
+  },
+  "RGL": {
+    "company_name": "Renaissance Global Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "Guided D2C revenues to reach INR375 crores by end-FY27 (35-40% organic growth). Profit growth guidance 20-30% for FY27. Jean Dousset expansion to 6 total stores (4 new stores planned). Target INR1,000 crores D2C by FY29 with 15-20% EBITDA margins. Strategic priorities include retail expansion, working capital optimization, and selective brand acquisitions in D2C space. Expected zero net debt in 12-24 months.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue grew 30% to INR690 crores; EBITDA grew 22% to INR50 crores. Profit growth guidance raised to >30% (vs prior 20-30% guidance). D2C forecast INR500 crores with strong momentum in Jean Dousset (3 stores, 4 more planned for FY27). Strategically exiting INR300-400 crores low-margin customer businesses to improve margins. Working capital reduction target INR250 crores; >INR300 crores operating cash expected. INR1,000 crores D2C FY29 target maintained.",
+        "verdict": "beat"
       }
     ]
   },
@@ -1159,6 +1514,21 @@
       }
     ]
   },
+  "SALZERELEC": {
+    "company_name": "Salzer Electronics Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Guided for FY27 EBITDA margin of 9-9.5%, revenues of INR 2,000-2,100 crores, and exports back to 25% of revenue mix. Emphasized margin pressure from commodity inflation would ease post-Q1 with calibrated pricing actions. Energy Management Solutions project revenue expected from Q2. Saudi manufacturing facility CapEx of INR 15 crores targeting INR 100 crores revenue long-term.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Revised FY27 EBITDA guidance down to 8-8.5%, citing persistent commodity inflation (copper, silver, plastics) and slower-than-expected pass-through lag. Q1 delivered 6% EBITDA margin and 13% YoY revenue growth; expects margins to stabilize at 9-9.5% from Q3 onwards. Energy Management annuity revenue (INR 2 crores monthly) commenced. Saudi plant commissioning pushed to September-October due to West Asia disruptions.",
+        "verdict": "missed"
+      }
+    ]
+  },
   "SAREGAMA": {
     "company_name": "Saregama India Limited",
     "quarters": [
@@ -1171,6 +1541,21 @@
         "quarter": "Aug 2026",
         "summary": "Q1 music revenue grew 39% YoY (management attributes to low base); maintained full-year 20-23% guidance and 60-65% EBITDA margin targets. Content spend on track. Expanded artiste roster to 309 with 440M followers; Carvaan Live launched with 23 shows; US diaspora tours underway. AI teams initiated for content creation and process optimization. Video declined 52% by design.",
         "verdict": "met"
+      }
+    ]
+  },
+  "SBIN": {
+    "company_name": "State Bank of India",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: credit growth 13-15%, NIM above 3%, credit cost 50bps. Strong foundation with FY26 net profit record \u20b980,032 crores (+12.88% YoY), deposits \u20b959 trillion, asset quality at two-decade lows (gross NPA 1.49%, net 0.39%).",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Maintaining FY27 guidance: NIM 3%, credit growth 14-15%, credit cost 50bps. Exceeded expectations in Q1 with record quarterly profit \u20b921,121 crores, 18% credit growth, and lowest asset quality in two decades. Launched YONO Ji and MSME Dream initiatives.",
+        "verdict": "beat"
       }
     ]
   },
@@ -1219,6 +1604,21 @@
       }
     ]
   },
+  "SKYGOLD": {
+    "company_name": "Sky Gold and Diamonds Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 revenue guidance INR 8,100 crores; FY30 vision INR 18,000\u201319,000 crores, net debt-free. Targeting 5.25% PAT margin and 20\u201325% PAT-to-OCF conversion by 2030. Planning 50%+ debt reduction in FY27 via operations and land sale. Adopting zero-salary promoter compensation linked to operating cash flow.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue INR 2,013 crores annualizes near FY27 guidance of INR 8,100 crores; gross margin expanded to 9.3% versus prior 8.45% YTD, and operating cash flow turned positive at INR 30 crores ahead of schedule. Advance Gold at 17% of volumes, exceeding 15% target. Guidance deferred to post-Diwali.",
+        "verdict": "beat"
+      }
+    ]
+  },
   "SNOWMAN": {
     "company_name": "Snowman Logistics Limited",
     "quarters": [
@@ -1245,6 +1645,36 @@
       {
         "quarter": "Aug 2026",
         "summary": "AI pipeline jumped 21% to $340M, order wins up 27% QoQ\u2014outpacing May guidance. However, EBITDA fell to 15.4% from 20.2% due to one-time compensation reversal, AI investments, deal ramp delays, and forex headwinds (Rs.35.4Cr impact). Utilization dipped to 88.5%; recovery expected Q2. Partial miss on margin commitment.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "SPECIALITY": {
+    "company_name": "Speciality Restaurants Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "FY27 guidance: INR600cr+ revenue target (15%+ growth) via 32-outlet expansion (8 restaurants, 15 Walters, 10 Sweet Bengals); INR40cr capex. Q4 SSSG 2.25%; gross margin 70.4%; 20th consecutive profitable quarter.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Management declined repeating INR600cr FY27 target; vague on revenue, citing only 'working hard' and Q3 opportunity. Q1 SSSG beat at 11.35% vs Q4's 2.25%; gross margin expanded to 71.1%. Walters +300% QoQ; delivery 29%.",
+        "verdict": "partial"
+      }
+    ]
+  },
+  "STARCEMENT": {
+    "company_name": "Star Cement Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 volume growth: 10-12% from 5.3 MT base. Subsidy estimated INR 140-150 crores (down from INR 184 crores FY26). Northeast EBITDA per ton: INR 1,500-1,700 targeted through FY28. Post-Rajasthan blended per ton: INR 1,300-1,400. Capex: INR 600-700 crores FY27; INR 1,500 crores FY28. Temporary coal cost headwinds of INR 0.10-0.15 per GCV expected Q1-Q2. Rajasthan approvals anticipated October.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Full year cement volume guidance revised down to 8-9% from prior 10-12%, citing elections and flooding headwinds. Subsidy reduced to INR 115 crores from INR 140-150 due to Assam policy change. EBITDA per ton target INR 1,500-1,600 for full year (Q1 at INR 1,497). Fuel costs peaked at INR 1.55; expected to ease to INR 1.45 Q2 onward. Rajasthan groundwork begins mid-October; 18-20 months to production.",
         "verdict": "partial"
       }
     ]
@@ -1321,6 +1751,21 @@
         "quarter": "Aug 2026",
         "summary": "FY'27 guidance: >30% revenue growth, ~6% EBITDA margin, 3.5-4% PAT. Rights issue completed (INR199.75cr); 30K TPA capacity commissioned. Narkoda CP plant (140K TPA) delayed to FY28 Q2. Solar power Q4 with INR25cr savings. Q1 weak (3.24% EBITDA) from crude/freight volatility; management expects recovery.",
         "verdict": "partial"
+      }
+    ]
+  },
+  "SUPRAJIT": {
+    "company_name": "Suprajit Engineering Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 guidance: double-digit revenue growth, consolidated EBITDA 12-13.5%, GCM margin improvement to 10-12% from 6%. ICM and SED margins stable; PLE ~12%. SCS achieved EBITDA positive turnaround. INR 200 crore CAPEX. Commodity and Middle East risks flagged.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 revenue 24% (beat double-digit guidance), consolidated EBITDA up 57%. GCM delivered 12.6% margin vs 10-12% guided; restructuring exceeded expectations. ICM margin pressure from wage inflation temporary; expects recovery Q2-Q3. Full-year guidance reconfirmed.",
+        "verdict": "beat"
       }
     ]
   },
@@ -1413,6 +1858,21 @@
       {
         "quarter": "Aug 2026",
         "summary": "Company filed notice that Q1 FY27 earnings call recording (quarter ended June 30) was posted; actual transcript content and detailed results not available in provided document. Unable to assess Q1 actuals versus prior guidance on \"teens\" EBITDA margin and single-digit growth.",
+        "verdict": "too_early"
+      }
+    ]
+  },
+  "TMPV": {
+    "company_name": "Tata Motors Passenger Vehicles Limited",
+    "quarters": [
+      {
+        "quarter": "Jun 2026",
+        "summary": "FY27 guidance deferred to June Analyst Days (JLR June 17; India June 23). Management guides ~10% industry growth; TMPV targeting industry-beating growth. EV volumes at ~9,000/month in Q4, ramp to 10,000+ underway. Commodity headwinds 5\u20136% of revenue; 0.5% price increase in April, more considered. JLR targets GBP1.7B cost savings over two years to restore 300K breakeven. Strong H2 momentum continues.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Q1 FY27 notification filed August 13, 2026; only audio recording link provided, no transcript text filed yet. Full transcript and results details not available. Awaiting official transcript publication.",
         "verdict": "too_early"
       }
     ]
@@ -1519,6 +1979,21 @@
         "quarter": "Aug 2026",
         "summary": "Q1 revenue 7%, below prior guidance, driven by West Asia disruptions in Maldives (5% growth; INR 19 crores fuel spike). India strong: 13% revenue, 16% EBITDA. Management expects robust Q3/Q4 recovery. Solar capex: Pune targeting 45% energy reduction, 5-6% EBITDA uplift; Maldives $1.5M annual savings from April 2027. Sahyadri Hills acquisition targeting 12%+ yield-on-cost.",
         "verdict": "partial"
+      }
+    ]
+  },
+  "VIVIANA": {
+    "company_name": "Viviana Power Tech Limited",
+    "quarters": [
+      {
+        "quarter": "Jul 2026",
+        "summary": "Management guided FY27 revenue above INR900 crores with PAT margins 8.5-10%, supported by INR1,000+ crore order book. Company pursuing INR100 crore greenfield transformer facility capex and INR100+ crore collateral base via Viviana Life Spaces. BESS projects pending financial closure; no FY27 contribution expected. Strategy focuses on leveraging structural power sector tailwinds toward multiyear growth.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "FY27 revenue guidance INR875-910 crores (slightly narrowed from 900+ prior guidance) with 8.5-10% PAT margins maintained. Q1 FY27 delivered 246% revenue growth and expanded order book to INR1,313 crores, exceeding prior INR1,000+ target. Board approved disinvestment of non-core Viviana Life Spaces and Aarsh Transformers to sharpen strategic focus on power infrastructure.",
+        "verdict": "beat"
       }
     ]
   },
