@@ -1,0 +1,100 @@
+{
+  "date": "14-08-2026",
+  "stories": [
+    {
+      "symbol": "CARBORUNIV",
+      "company_name": "Carborundum Universal Limited",
+      "category": "beat",
+      "headline": "Carborundum Universal raised FY27 Ceramics guidance to 23-25%, from 15-15.5% earlier",
+      "instagram_caption": "Carborundum Universal raised its FY27 Ceramics segment growth guidance to 23-25%, up from the 15-15.5% guided earlier.\nConsolidated FY27 guidance was also raised, to 15% from the prior 11-12% (ex-closures).\nQ1 consolidated sales grew 16.9% YoY; standalone sales grew 21.2% YoY, with margins holding despite cost inflation.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: \"CARBORUNDUM UNIVERSAL - FY27 GUIDANCE RAISED\"]\nVO: Carborundum Universal just raised its own full-year guidance.\n[ON-SCREEN: \"Ceramics: 15-15.5% -> 23-25%\"]\nVO: The Ceramics segment's growth target moved from 15-15.5 percent up to a new range of 23 to 25 percent.\n[ON-SCREEN: \"Consolidated: 11-12% -> 15%\"]\nVO: Consolidated FY27 growth guidance was also raised, from 11-12 percent to 15 percent.\n[ON-SCREEN: \"Q1: Consolidated sales +16.9% YoY\"]\nVO: This follows a Q1 where consolidated sales grew 16.9 percent year-on-year, and standalone sales grew 21.2 percent, with margins holding up despite cost inflation.\n[ON-SCREEN: \"Factual summary of public disclosures. Not investment advice.\"]\nVO: Factual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Carborundum Universal", "Raises FY27 guidance"],
+        "stats": [
+          {"label": "CERAMICS FY27 GUIDANCE", "value": "23-25%", "tag": "RAISED", "direction": "pos"}
+        ],
+        "context_title": "Consolidated guidance raised too",
+        "context_stats": [
+          {"label": "CONSOLIDATED FY27 GUIDANCE", "value": "15%", "sub": "vs 11-12% earlier"},
+          {"label": "Q1 SALES GROWTH", "value": "16.9%", "sub": "Consolidated YoY"}
+        ]
+      }
+    },
+    {
+      "symbol": "HGS",
+      "company_name": "Hinduja Global Solutions Limited",
+      "category": "miss",
+      "headline": "HGS guided margin improvement; Q1 EBITDA margin instead fell to 9.7% from 15.7%",
+      "instagram_caption": "Hinduja Global Solutions had guided toward margin improvement heading into Q1.\nInstead, EBITDA margin compressed to 9.7%, down from 15.7% previously.\nRevenue also declined 3.2% sequentially to Rs 1,050.4 crores, on planned legacy contract runoff and one-time investment costs.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: \"HGS - Q1 FY27\"]\nVO: Hinduja Global Solutions had guided toward margin improvement this quarter.\n[ON-SCREEN: \"EBITDA margin: 15.7% -> 9.7%\"]\nVO: Instead, EBITDA margin compressed to 9.7 percent, down from 15.7 percent.\n[ON-SCREEN: \"Revenue: -3.2% QoQ, Rs1,050.4cr\"]\nVO: Revenue also declined 3.2 percent sequentially to Rs 1,050.4 crores, which management attributed to planned legacy contract runoff and one-time investment costs.\n[ON-SCREEN: \"19 new logos ramping; Project Ganga launched June 2026\"]\nVO: Management said it expects margin recovery as these investments commercialize and new client logos ramp up.\n[ON-SCREEN: \"Factual summary of public disclosures. Not investment advice.\"]\nVO: Factual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Hinduja Global Solutions", "Margin fell despite guidance"],
+        "stats": [
+          {"label": "EBITDA MARGIN", "value": "9.7%", "tag": "MISS", "direction": "neg"}
+        ],
+        "context_title": "Revenue also declined sequentially",
+        "context_stats": [
+          {"label": "Q1 REVENUE", "value": "Rs1,050.4cr", "sub": "-3.2% QoQ"},
+          {"label": "PRIOR YEAR MARGIN", "value": "15.7%", "sub": "Legacy contract runoff cited"}
+        ]
+      }
+    },
+    {
+      "symbol": "CELLO",
+      "company_name": "Cello World Limited",
+      "category": "quiet_change",
+      "headline": "Cello World withdrew its earlier 10-12% FY27 growth commitment, gave no new guidance",
+      "instagram_caption": "Cello World had earlier committed to 10-12% FY27 growth.\nOn this call, management withdrew that commitment and declined to provide new FY27 guidance, citing a tough environment.\nQ1 revenue was Rs 526.7 crores with a 22.2% EBITDA margin; steel bottle SKUs are down to 20-25 from 150 previously, on in-house manufacturing ramp delays.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: \"CELLO WORLD - GUIDANCE WITHDRAWN\"]\nVO: Cello World had earlier committed to 10 to 12 percent FY27 growth.\n[ON-SCREEN: \"10-12% commitment -> withdrawn\"]\nVO: On this call, management withdrew that commitment and did not replace it with new FY27 guidance, citing a tough environment.\n[ON-SCREEN: \"Steel bottles: 150 SKUs -> 20-25 SKUs\"]\nVO: One driver: steel bottle SKUs are down to just 20 to 25, from 150 previously, due to delays ramping up in-house manufacturing.\n[ON-SCREEN: \"Q1: Revenue Rs526.7cr, EBITDA margin 22.2%\"]\nVO: Q1 revenue came in at Rs 526.7 crores with a 22.2 percent EBITDA margin, and writing instruments grew 52 percent year-on-year.\n[ON-SCREEN: \"Factual summary of public disclosures. Not investment advice.\"]\nVO: Factual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Cello World", "Withdraws FY27 commitment"],
+        "stats": [
+          {"label": "FY27 GROWTH COMMITMENT", "value": "10-12%", "tag": "WITHDRAWN", "direction": "neg"}
+        ],
+        "context_title": "Steel bottle SKUs sharply reduced",
+        "context_stats": [
+          {"label": "STEEL BOTTLE SKUS", "value": "20-25", "sub": "vs 150 previously"},
+          {"label": "Q1 EBITDA MARGIN", "value": "22.2%", "sub": "Revenue Rs526.7cr"}
+        ]
+      }
+    },
+    {
+      "symbol": "RAMBHAJO",
+      "company_name": "Advit Jewels Limited",
+      "category": "deflection",
+      "headline": "Advit Jewels declined to give FY27-28 guidance even after direct prompts on the call",
+      "instagram_caption": "Advit Jewels (RAMBHAJO) was asked directly for FY27-FY28 guidance on this call.\nManagement declined, pointing instead to projections on the company website.\nQ1 revenue grew 37% YoY to Rs 35.4 crores; EBITDA margin expanded to 33.12%, from 29.04% in Q4.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: \"ADVIT JEWELS (RAMBHAJO)\"]\nVO: Advit Jewels was directly asked for FY27 and FY28 guidance on its earnings call.\n[ON-SCREEN: \"Direct question -> declined to guide\"]\nVO: Management declined to give a number, pointing instead to projections already posted on the company website.\n[ON-SCREEN: \"Q1: Revenue Rs35.4cr, +37% YoY\"]\nVO: This comes after a Q1 where revenue grew 37 percent year-on-year to Rs 35.4 crores, and EBITDA margin expanded to 33.12 percent, from 29.04 percent in the fourth quarter.\n[ON-SCREEN: \"3 new stores planned for FY27\"]\nVO: The company also outlined plans for a flagship store by November and three new stores through FY27.\n[ON-SCREEN: \"Factual summary of public disclosures. Not investment advice.\"]\nVO: Factual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Advit Jewels (RAMBHAJO)", "Declined to guide FY27-28"],
+        "stats": [
+          {"label": "Q1 EBITDA MARGIN", "value": "33.12%", "tag": "DECLINED TO GUIDE", "direction": "neutral"}
+        ],
+        "context_title": "Q1 revenue and margin both improved",
+        "context_stats": [
+          {"label": "Q1 REVENUE", "value": "Rs35.4cr", "sub": "+37% YoY"},
+          {"label": "PRIOR QUARTER MARGIN", "value": "29.04%", "sub": "Q4 EBITDA margin"}
+        ]
+      }
+    },
+    {
+      "symbol": "NAUKRI",
+      "company_name": "Info Edge (India) Limited",
+      "category": "beat",
+      "headline": "Info Edge's Q1 billings grew 14%, ahead of its own guided 10-11% range",
+      "instagram_caption": "Info Edge (Naukri) had guided Q1 billings growth of 10-11%.\nActual billings growth came in at 14%, with about a third of recruitment growth attributed to AI-Rex and Talent Pulse.\n99acres grew 17% and neared profitability ahead of its FY27 target; jobseeker growth accelerated to 35%.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: \"INFO EDGE (NAUKRI) - Q1 FY27\"]\nVO: Info Edge had guided Q1 billings growth of 10 to 11 percent.\n[ON-SCREEN: \"Billings growth: 14% vs 10-11% guided\"]\nVO: Actual billings growth came in at 14 percent, ahead of that range.\n[ON-SCREEN: \"99acres: +17%, near profitability\"]\nVO: 99acres grew 17 percent and moved closer to profitability, ahead of its FY27 target.\n[ON-SCREEN: \"Jobseeker growth: 35%\"]\nVO: Jobseeker growth accelerated to 35 percent, with paid conversion at 2.6 percent.\n[ON-SCREEN: \"Factual summary of public disclosures. Not investment advice.\"]\nVO: Factual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["Info Edge (Naukri)", "Billings beat guidance"],
+        "stats": [
+          {"label": "Q1 BILLINGS GROWTH", "value": "14%", "tag": "BEAT", "direction": "pos"}
+        ],
+        "context_title": "99acres and jobseeker also accelerated",
+        "context_stats": [
+          {"label": "99ACRES GROWTH", "value": "17%", "sub": "Near profitability"},
+          {"label": "JOBSEEKER GROWTH", "value": "35%", "sub": "Paid conversion 2.6%"}
+        ]
+      }
+    }
+  ]
+}
