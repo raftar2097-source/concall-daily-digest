@@ -589,6 +589,21 @@
       }
     ]
   },
+  "GREENPANEL": {
+    "company_name": "Greenpanel Industries Limited",
+    "quarters": [
+      {
+        "quarter": "May 2026",
+        "summary": "Declined figurative FY27 guidance citing Middle East uncertainty. Primary strategy: pursue volume growth and maintain or improve margins over FY26's 8.8% EBITDA. Expected industry demand at early double-digit to mid-teens growth. Implemented 15% price hike in phases. No significant capex planned; focus remains on capacity utilization at 55-60%.",
+        "verdict": null
+      },
+      {
+        "quarter": "Aug 2026",
+        "summary": "Again declined figurative guidance. Plans to ramp domestic volumes over remaining nine months; expects gradual export recovery post-Middle East normalization. Q1 shortfalls vs. prior guidance: domestic volumes grew 12% YoY but total MDF volumes fell 2.3% (exports collapsed to zero); admitted losing market share to Century for two consecutive quarters despite pricing pivot. Most of 15% price hike rolled back.",
+        "verdict": "partial"
+      }
+    ]
+  },
   "GRSE": {
     "company_name": "Garden Reach Shipbuilders & Engineers Limited",
     "quarters": [

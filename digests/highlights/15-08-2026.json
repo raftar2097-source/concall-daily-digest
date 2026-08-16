@@ -1,0 +1,63 @@
+{
+  "date": "15-08-2026",
+  "stories": [
+    {
+      "symbol": "GREENPANEL",
+      "company_name": "Greenpanel Industries Limited",
+      "category": "quiet_change",
+      "headline": "Greenpanel: domestic MDF volume +12% while total volume fell 2.3% as exports hit zero",
+      "instagram_caption": "Greenpanel's domestic MDF volumes grew 12% YoY this quarter.\nTotal MDF volumes still fell 2.3% YoY, as exports collapsed to zero amid Middle East disruption.\nMost of the company's 15% price hike has been rolled back; management admitted losing market share to Century for two consecutive quarters.\nManagement again declined to give forward guidance.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: GREENPANEL — Q1 FY27]\nGreenpanel's domestic MDF volumes grew 12% year-on-year this quarter.\n[ON-SCREEN: Domestic volume: +12% | Total volume: -2.3%]\nBut total MDF volumes still fell 2.3%, because exports collapsed to zero on Middle East disruption.\n[ON-SCREEN: 15% price hike — mostly rolled back]\nManagement also disclosed that most of an earlier 15% price hike has now been rolled back.\n[ON-SCREEN: Admitted losing share to Century — 2 straight quarters]\nThe company admitted losing market share to Century for two consecutive quarters, despite the pricing move.\n[ON-SCREEN: Forward guidance: again declined]\nManagement again declined to give specific forward guidance, citing plans to ramp domestic volumes over the remaining nine months of the year.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["GREENPANEL", "DOMESTIC UP, EXPORTS ZERO"],
+        "stats": [
+          {"label": "DOMESTIC MDF VOLUME", "value": "+12%", "tag": "GREW", "direction": "pos"},
+          {"label": "TOTAL MDF VOLUME", "value": "-2.3%", "tag": "FELL", "direction": "neg"}
+        ],
+        "context_title": "Price hike rolled back, guidance declined",
+        "context_stats": [
+          {"label": "PRICE HIKE ROLLED BACK", "value": "~15%", "sub": "most of it reversed"},
+          {"label": "SHARE LOST TO CENTURY", "value": "2 QTRS", "sub": "consecutive"}
+        ]
+      }
+    },
+    {
+      "symbol": "ELECTCAST",
+      "company_name": "Electrosteel Castings Limited",
+      "category": "miss",
+      "headline": "Electrosteel Castings cuts FY27 volume guidance to 575,000 tons from 700,000-ton target",
+      "instagram_caption": "Electrosteel Castings had targeted 700,000 tons of volume for FY27.\nThat guidance has now been revised down to 575,000 tons.\nMargin recovery, earlier expected across the full year at 13-14%, is now expected only in the second half.\nManagement described the current domestic demand trough as cyclical, not structural.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: ELECTROSTEEL CASTINGS — Q1 FY27]\nElectrosteel Castings had targeted 700,000 tons of volume for FY27.\n[ON-SCREEN: Volume guidance: 700,000 tons -> 575,000 tons]\nThat target has now been cut to 575,000 tons.\n[ON-SCREEN: Margin recovery: full-year 13-14% -> H2 only]\nMargin recovery, earlier expected across the full year at 13 to 14%, is now expected only in the second half.\n[ON-SCREEN: Paint business target raised: Rs 800-1,000 Cr]\nSeparately, the company's paint business target was raised, to Rs 800 to 1,000 crore.\n[ON-SCREEN: Management: current trough 'cyclical, not structural']\nManagement said domestic demand remains depressed but described the current trough as cyclical, not structural.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["ELECTROSTEEL CASTINGS", "VOLUME GUIDANCE CUT"],
+        "stats": [
+          {"label": "FY27 VOLUME GUIDANCE", "value": "575,000T", "tag": "CUT", "direction": "neg"}
+        ],
+        "context_title": "From an earlier 700,000-ton target",
+        "context_stats": [
+          {"label": "PRIOR TARGET", "value": "700,000T", "sub": "revised down this quarter"},
+          {"label": "MARGIN RECOVERY", "value": "H2 ONLY", "sub": "vs full-year 13-14% earlier"}
+        ]
+      }
+    },
+    {
+      "symbol": "IMFA",
+      "company_name": "Indian Metals & Ferro Alloys Limited",
+      "category": "quiet_change",
+      "headline": "IMFA posts record Q1 profit, then cuts FY27 volume guidance to 380,000 tons from 400,000",
+      "instagram_caption": "Indian Metals & Ferro Alloys posted a record Q1: 80,000 tons sold at ~INR120,000/ton realization, its highest-ever quarterly revenue and profit.\nIn the same call, FY27 volume guidance was reduced to 380,000 tons, down from the prior 400,000-ton target.\nManagement attributed the cut to transformer replacements and emissions-control work at its KNR-2 plant.\nKNR-1's first furnace tapping is imminent, with a full 50% volume uplift still expected by Q4 FY27.\nFactual summary of public company disclosures. Not investment advice.",
+      "youtube_shorts_script": "[ON-SCREEN: IMFA — Q1 FY27]\nIndian Metals & Ferro Alloys posted a record quarter: 80,000 tons sold, at a realization of about 120,000 rupees per ton — its highest-ever quarterly revenue and profit.\n[ON-SCREEN: FY27 volume guidance: 400,000T -> 380,000T]\nBut in the same call, management cut its FY27 volume guidance, to 380,000 tons from a prior 400,000-ton target.\n[ON-SCREEN: Why: transformer replacement, emissions work at KNR-2]\nThe reduction was attributed to transformer replacements and emissions-control work at the company's KNR-2 plant.\n[ON-SCREEN: KNR-1: first furnace tapping imminent]\nManagement said KNR-1's first furnace tapping is imminent, with a full 50% volume uplift still expected by Q4 FY27.\n[ON-SCREEN: Factual summary of public company disclosures. Not investment advice.]\nFactual summary of public company disclosures. Not investment advice.",
+      "slides": {
+        "hook": ["IMFA: RECORD QUARTER,", "GUIDANCE CUT"],
+        "stats": [
+          {"label": "FY27 VOLUME GUIDANCE", "value": "380,000T", "tag": "CUT", "direction": "neg"}
+        ],
+        "context_title": "Q1 was a record quarter",
+        "context_stats": [
+          {"label": "Q1 VOLUME", "value": "80,000T", "sub": "highest-ever revenue/profit"},
+          {"label": "PRIOR TARGET", "value": "400,000T", "sub": "cut this quarter"}
+        ]
+      }
+    }
+  ]
+}
